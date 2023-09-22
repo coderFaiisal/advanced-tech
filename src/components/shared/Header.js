@@ -26,7 +26,8 @@ import { SiCoinmarketcap } from "react-icons/si";
 import { ImPower } from "react-icons/im";
 import { FiMonitor } from "react-icons/fi";
 import { LuHardDrive } from "react-icons/lu";
-import { RxCross1 } from "react-icons/rx";
+import { RxCross1, RxHamburgerMenu } from "react-icons/rx";
+import Link from "next/link";
 
 const colors = {
   blue: "bg-blue-50 text-blue-500",
@@ -176,6 +177,7 @@ function NavList() {
           Home
         </ListItem>
       </Typography>
+
       <NavListMenu />
       <Typography
         as="a"
@@ -235,19 +237,19 @@ export function Header() {
           {openNav ? (
             <RxCross1 className="h-6 w-6" strokeWidth={2} />
           ) : (
-            <HiMiniHome className="h-6 w-6" strokeWidth={2} />
+            <RxHamburgerMenu className="h-6 w-6" strokeWidth={2} />
           )}
         </IconButton>
       </div>
       <Collapse open={openNav}>
         <NavList />
         <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
-          <Button variant="outlined" size="sm" color="blue-gray" fullWidth>
-            Sign In
+          <Button variant="gradient" size="sm" color="blue" fullWidth>
+            PC Builder
           </Button>
-          <Button variant="gradient" size="sm" fullWidth>
+          {/* <Button variant="gradient" size="sm" fullWidth>
             Sign Up
-          </Button>
+          </Button> */}
         </div>
       </Collapse>
     </Navbar>

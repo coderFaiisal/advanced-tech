@@ -1,18 +1,13 @@
-import { Footer } from "@/components/shared/Footer";
-import Header from "@/components/shared/Header";
+import RootLayout from "@/components/layout/RootLayout";
 import "@/styles/globals.css";
 import { ThemeProvider } from "@material-tailwind/react";
 
 export default function App({ Component, pageProps }) {
   return (
     <ThemeProvider>
-      <div className="max-w-7xl">
-        <Header />
-        <div className="min-h-screen">
-          <Component {...pageProps} />
-        </div>
-        <Footer />
-      </div>
+      <RootLayout>
+        <Component {...pageProps} />
+      </RootLayout>
     </ThemeProvider>
   );
 }
