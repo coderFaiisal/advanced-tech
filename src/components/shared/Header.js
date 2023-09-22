@@ -167,7 +167,6 @@ function NavList() {
     <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1">
       <Typography
         as="a"
-        href="#"
         variant="small"
         color="blue-gray"
         className="font-normal"
@@ -180,7 +179,6 @@ function NavList() {
       <NavListMenu />
       <Typography
         as="a"
-        href="#"
         variant="small"
         color="blue-gray"
         className="font-normal"
@@ -192,7 +190,6 @@ function NavList() {
       </Typography>
       <Typography
         as="a"
-        href="#"
         variant="small"
         color="blue-gray"
         className="font-normal"
