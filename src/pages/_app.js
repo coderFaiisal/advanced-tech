@@ -6,7 +6,7 @@ import { ThemeProvider } from "@material-tailwind/react";
 export default function App({ Component, pageProps }) {
   return (
     <ThemeProvider>
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl">
         <Header></Header>
         <div className="min-h-screen">
           <Component {...pageProps} />
