@@ -7,11 +7,11 @@ export default function App({ Component, pageProps }) {
   return (
     <ThemeProvider>
       <div className="max-w-7xl">
-        <Header></Header>
+        <Header />
         <div className="min-h-screen">
           <Component {...pageProps} />
         </div>
-        <Footer></Footer>
+        <Footer />
       </div>
     </ThemeProvider>
   );
