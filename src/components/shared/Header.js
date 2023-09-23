@@ -35,6 +35,7 @@ import { MdOutlineDevicesOther } from "react-icons/md";
 import { LuHardDrive } from "react-icons/lu";
 import { RxCross1, RxHamburgerMenu } from "react-icons/rx";
 import Link from "next/link";
+import { signOut, useSession } from "next-auth/react";
 
 const colors = {
   blue: "bg-blue-50 text-blue-500",
@@ -209,25 +210,12 @@ function NavList() {
   );
 }
 
-const profileMenuItems = [
-  {
-    label: "My Profile",
-    icon: AiOutlineUser,
-  },
-  {
-    label: "Edit Profile",
-    icon: AiOutlineSetting,
-  },
-  {
-    label: "Sign Out",
-    icon: AiOutlinePoweroff,
-  },
-];
-
 function ProfileMenu() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const closeMenu = () => setIsMenuOpen(false);
+
+  const { data: session } = useSession();
 
   return (
     <Menu open={isMenuOpen} handler={setIsMenuOpen} placement="bottom-end">
@@ -242,7 +230,7 @@ function ProfileMenu() {
             size="sm"
             alt="tania andrew"
             className="border border-gray-900 p-0.5"
-            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+            src={session?.user?.image}
           />
           <IoChevronDownSharp
             strokeWidth={2.5}
@@ -253,33 +241,38 @@ function ProfileMenu() {
         </Button>
       </MenuHandler>
       <MenuList className="p-1">
-        {profileMenuItems.map(({ label, icon }, key) => {
-          const isLastItem = key === profileMenuItems.length - 1;
-          return (
-            <MenuItem
-              key={label}
-              onClick={closeMenu}
-              className={`flex items-center gap-2 rounded ${
-                isLastItem
-                  ? "hover:bg-red-500/10 focus:bg-red-500/10 active:bg-red-500/10"
-                  : ""
-              }`}
-            >
-              {React.createElement(icon, {
-                className: `h-4 w-4 ${isLastItem ? "text-red-500" : ""}`,
-                strokeWidth: 2,
-              })}
-              <Typography
-                as="span"
-                variant="small"
-                className="font-normal"
-                color={isLastItem ? "red" : "inherit"}
-              >
-                {label}
-              </Typography>
-            </MenuItem>
-          );
-        })}
+        <MenuItem className={`flex items-center gap-2 rounded`}>
+          {React.createElement(AiOutlineUser, {
+            className: `h-4 w-4`,
+            strokeWidth: 2,
+          })}
+          <Typography as="span" variant="small" className="font-normal">
+            My Profile
+          </Typography>
+        </MenuItem>
+
+        <MenuItem className={`flex items-center gap-2 rounded`}>
+          {React.createElement(AiOutlineSetting, {
+            className: `h-4 w-4`,
+            strokeWidth: 2,
+          })}
+          <Typography as="span" variant="small" className="font-normal">
+            Edit Profile
+          </Typography>
+        </MenuItem>
+
+        <MenuItem
+          onClick={() => signOut({ callbackUrl: "http://localhost:3000" })}
+          className={`flex items-center gap-2 rounded hover:bg-red-500/10 focus:bg-red-500/10 active:bg-red-500/10`}
+        >
+          {React.createElement(AiOutlinePoweroff, {
+            className: `h-4 w-4`,
+            strokeWidth: 2,
+          })}
+          <Typography as="span" variant="small" className="font-normal">
+            Sign Out
+          </Typography>
+        </MenuItem>
       </MenuList>
     </Menu>
   );
@@ -287,6 +280,7 @@ function ProfileMenu() {
 
 export function Header() {
   const [openNav, setOpenNav] = React.useState(false);
+  const { data: session } = useSession();
 
   React.useEffect(() => {
     window.addEventListener(
@@ -310,7 +304,7 @@ export function Header() {
               PC Builder
             </Button>
           </Link>
-          <ProfileMenu />
+          {session?.user?.email && <ProfileMenu />}
         </div>
         <div className="flex lg:hidden">
           <IconButton
@@ -324,7 +318,7 @@ export function Header() {
               <RxHamburgerMenu className="h-6 w-6" strokeWidth={2} />
             )}
           </IconButton>
-          <ProfileMenu />
+          {session?.user?.email && <ProfileMenu />}
         </div>
       </div>
       <Collapse open={openNav}>
