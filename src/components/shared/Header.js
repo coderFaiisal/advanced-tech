@@ -12,6 +12,7 @@ import {
   MenuHandler,
   MenuList,
   MenuItem,
+  Avatar,
 } from "@material-tailwind/react";
 import { HiChevronDown, HiSquare3Stack3D, HiMiniHome } from "react-icons/hi2";
 import Image from "next/image";
@@ -20,7 +21,12 @@ import {
   BsFillMotherboardFill,
   BsBuildingAdd,
 } from "react-icons/bs";
-import { IoCubeSharp } from "react-icons/io5";
+import { IoCubeSharp, IoChevronDownSharp } from "react-icons/io5";
+import {
+  AiOutlineUser,
+  AiOutlineSetting,
+  AiOutlinePoweroff,
+} from "react-icons/ai";
 import { CgSmartphoneRam } from "react-icons/cg";
 import { SiCoinmarketcap } from "react-icons/si";
 import { ImPower } from "react-icons/im";
@@ -203,6 +209,82 @@ function NavList() {
   );
 }
 
+const profileMenuItems = [
+  {
+    label: "My Profile",
+    icon: AiOutlineUser,
+  },
+  {
+    label: "Edit Profile",
+    icon: AiOutlineSetting,
+  },
+  {
+    label: "Sign Out",
+    icon: AiOutlinePoweroff,
+  },
+];
+
+function ProfileMenu() {
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+
+  const closeMenu = () => setIsMenuOpen(false);
+
+  return (
+    <Menu open={isMenuOpen} handler={setIsMenuOpen} placement="bottom-end">
+      <MenuHandler>
+        <Button
+          variant="text"
+          color="blue-gray"
+          className="flex items-center gap-1 rounded-full py-0.5 pr-2 pl-0.5 lg:ml-auto"
+        >
+          <Avatar
+            variant="circular"
+            size="sm"
+            alt="tania andrew"
+            className="border border-gray-900 p-0.5"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+          />
+          <IoChevronDownSharp
+            strokeWidth={2.5}
+            className={`h-3 w-3 hidden lg:block transition-transform ${
+              isMenuOpen ? "rotate-180" : ""
+            }`}
+          />
+        </Button>
+      </MenuHandler>
+      <MenuList className="p-1">
+        {profileMenuItems.map(({ label, icon }, key) => {
+          const isLastItem = key === profileMenuItems.length - 1;
+          return (
+            <MenuItem
+              key={label}
+              onClick={closeMenu}
+              className={`flex items-center gap-2 rounded ${
+                isLastItem
+                  ? "hover:bg-red-500/10 focus:bg-red-500/10 active:bg-red-500/10"
+                  : ""
+              }`}
+            >
+              {React.createElement(icon, {
+                className: `h-4 w-4 ${isLastItem ? "text-red-500" : ""}`,
+                strokeWidth: 2,
+              })}
+              <Typography
+                as="span"
+                variant="small"
+                className="font-normal"
+                color={isLastItem ? "red" : "inherit"}
+              >
+                {label}
+              </Typography>
+            </MenuItem>
+          );
+        })}
+      </MenuList>
+    </Menu>
+  );
+}
+
 export function Header() {
   const [openNav, setOpenNav] = React.useState(false);
 
@@ -222,34 +304,37 @@ export function Header() {
         <div className="hidden lg:block">
           <NavList />
         </div>
-        <div className="hidden gap-2 lg:flex">
-          <Button variant="gradient" size="sm" color="blue">
-            PC Builder
-          </Button>
-          {/* <Button variant="gradient" size="sm"></Button> */}
+        <div className="hidden gap-2 lg:flex items-center">
+          <Link href="/pcBuilder">
+            <Button variant="gradient" size="sm" color="blue">
+              PC Builder
+            </Button>
+          </Link>
+          <ProfileMenu />
         </div>
-        <IconButton
-          variant="text"
-          color="blue-gray"
-          className="lg:hidden"
-          onClick={() => setOpenNav(!openNav)}
-        >
-          {openNav ? (
-            <RxCross1 className="h-6 w-6" strokeWidth={2} />
-          ) : (
-            <RxHamburgerMenu className="h-6 w-6" strokeWidth={2} />
-          )}
-        </IconButton>
+        <div className="flex lg:hidden">
+          <IconButton
+            variant="text"
+            color="blue-gray"
+            onClick={() => setOpenNav(!openNav)}
+          >
+            {openNav ? (
+              <RxCross1 className="h-6 w-6" strokeWidth={2} />
+            ) : (
+              <RxHamburgerMenu className="h-6 w-6" strokeWidth={2} />
+            )}
+          </IconButton>
+          <ProfileMenu />
+        </div>
       </div>
       <Collapse open={openNav}>
         <NavList />
         <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
-          <Button variant="gradient" size="sm" color="blue" fullWidth>
-            PC Builder
-          </Button>
-          {/* <Button variant="gradient" size="sm" fullWidth>
-            Sign Up
-          </Button> */}
+          <Link href="/pcBuilder">
+            <Button variant="gradient" size="sm" color="blue" fullWidth>
+              PC Builder
+            </Button>
+          </Link>
         </div>
       </Collapse>
     </Navbar>
