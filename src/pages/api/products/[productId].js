@@ -1,14 +1,14 @@
 import { DBConnection, client } from "@/utils/DBConnect";
 import { ObjectId } from "mongodb";
 
-const product = async (req, res) => {
+const products = async (req, res) => {
   await DBConnection();
 
   const productsCollection = client
     .db(process.env.DB_NAME)
-    .collection(process.env.DB_COLLECTION_NAME);
+    .collection(process.env.DB_PRODUCTS_COLLECTION);
 
-  const { id } = req.query;
+  const { productId } = req.query;
 
   const category = [
     "Processor",
@@ -22,21 +22,20 @@ const product = async (req, res) => {
   ];
 
   if (req.method === "GET") {
-    if (category.includes(id)) {
+    if (category.includes(productId)) {
       const products = await productsCollection
         .find({
-          category: id,
+          category: productId,
         })
         .toArray();
       res.send(products);
     } else {
       const product = await productsCollection.findOne({
-        _id: new ObjectId(id),
+        _id: new ObjectId(productId),
       });
       res.send(product);
     }
   }
-  
 };
 
-export default product;
+export default products;

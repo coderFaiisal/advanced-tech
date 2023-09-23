@@ -1,0 +1,1168 @@
+[
+  {
+    "image": "https://i.ibb.co/DkQNfsc/Core-i5-13600-K-01-500x500.png",
+    "name": "Intel 13th Gen Core i5 13600K Raptor Lake Processor",
+    "brand": "Intel",
+    "category": "Processor",
+    "status": "In Stock",
+    "price": 300,
+    "description": "The Intel Core i5-13600K 3.5 GHz 14-Core LGA 1700 Processor will boost your productivity, gaming, and content production. This 13th-generation desktop CPU expands on the Hybrid Core design and Intel 7 process by packing 14 cores onto a single chip, four more than the prior generation, while still fitting the LGA 1700 socket. The Core i5-13600K is designed to deliver powerful performance for everyday workloads, with eight low-voltage Efficient-cores handling background tasks for multitasking and six 3.5 GHz Performance-cores powering programs and games. The built-in Intel Thread Director guarantees that the two function in unison by dynamically and intelligently distributing tasks to the appropriate core at the appropriate moment. With 24MB of cache and a Turbo Boost Max 2.0 clock of 5.1 GHz, this CPU is designed to handle a wide range of workloads. This CPU may also be overclocked for increased performance. PCI Express 5.0 and dual-channel DDR5 ECC memory at 5600 MHz are also supported by the Core i5-13600K. The Core i5-13600K has integrated Intel UHD 770 Graphics. It provides quick, rich 3D performance for high-quality images, with support for one 7680 x 4320 resolution 8K monitor or up to four 3840 x 2160 resolution 4K monitors with great dynamic range. The Intel 13th Gen Core i5 13600K Processor comes with a 03-year warranty.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "Core i5 13600K"
+      },
+      {
+        "title": "Clock Speed",
+        "description": "3.50 GHz up to 5.10 GHz"
+      },
+      {
+        "title": "CPU Cores & Threads",
+        "description": "Cores: 14,Threads: 20"
+      },
+      {
+        "title": "Cache",
+        "description": "24 MB"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "It's a very power-full Processor. Very Good for Gaming and Overclocking."
+      },
+      {
+        "userName": "Khairul",
+        "message": "I am satisfied with the performance of this processor."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/DkQNfsc/Core-i5-13600-K-01-500x500.png",
+    "name": "Intel 13th Gen Core i5 13400F Raptor Lake Processor",
+    "brand": "Intel",
+    "category": "Processor",
+    "status": "In Stock",
+    "price": 250,
+    "description": "The Intel 13th Gen Core i5 13400F Processor is compatible with LGA1700 Sockets. With 10 total cores and 16 total threads, this CPU is ideal for gamers and heavy users. It also has a new Raptor Cove CPU core and is built on the ESF 'Intel 7' manufacturing node at 10nm. With a clock speed of up to 2.50 GHz, this CPU will provide you with the necessary power. With eight low-voltage Efficient-cores managing background operations for multitasking and six 2.50 GHz Performance-cores powering applications and games, the Core i5-13400F is intended to give outstanding performance for daily workloads. The integrated Intel Thread Director ensures that the two work in tandem by dynamically and intelligently assigning workloads to the right core at the appropriate time. The memory type of this processor is DDR5-4800; this CPU supports high-speed DDR5 memory, which provides excellent performance. This CPU can accommodate up to 128 GB of RAM, making it ideal for demanding users. This CPU has two memory channels, providing excellent performance and versatility.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "Core i5 13400F"
+      },
+      {
+        "title": "Clock Speed",
+        "description": "2.50 GHz up to 4.60 GHz"
+      },
+      {
+        "title": "CPU Cores & Threads",
+        "description": "Cores: 10,Threads: 16"
+      },
+      {
+        "title": "Cache",
+        "description": "20 MB"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "It's a very power-full Processor. Very Good for budget Gaming."
+      },
+      {
+        "userName": "Khairul",
+        "message": "Very good processor."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/DkQNfsc/Core-i5-13600-K-01-500x500.png",
+    "name": "Intel 13th Gen Core i5 13500 Raptor Lake Processor",
+    "brand": "Intel",
+    "category": "Processor",
+    "status": "Out of Stock",
+    "price": 280,
+    "description": "The Intel 13th Generation Core i5 13500 Processor is LGA1700 Socket compatible. With 14 cores, this CPU can easily handle even the most demanding workloads. It can also effectively boost its core count to 20 threads owing to Intel Hyper-Threading. It also includes 24MB of L3 cache. The Core i5-13500 features 24MB of L3 cache and runs at 2.5 GHz by default, with the ability to turbo to 4.8 GHz depending on the workload. So you may be confident that your processor will be able to meet your demands. This CPU is manufactured on a 10 nm technology and has a locked multiplier, which limits its overclocking potential. With a TDP of only 65 W, it nevertheless provides excellent performance. DDR4 and DDR5 memory with a dual-channel interface is also supported by the Core i5-13500. It communicates with other system components through a PCI-Express Gen 5 link. This CPU also includes the UHD Graphics 770 integrated graphics solution. The Core i5-13500 also supports virtualization, which enhances virtual machine performance significantly. This CPU includes the integrated graphics solution UHD Graphics 770.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "Core i5 13500"
+      },
+      {
+        "title": "Clock Speed",
+        "description": "2.50 GHz up to 4.80 GHz"
+      },
+      {
+        "title": "CPU Cores & Threads",
+        "description": "Cores: 14,Threads: 20"
+      },
+      {
+        "title": "Cache",
+        "description": "24 MB"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "One of the best processor in this budget."
+      },
+      {
+        "userName": "Khairul",
+        "message": "Very very satisfied with this processor."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/CJjmNMX/ryzen-5-5600g-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "AMD Ryzen 5 5600G Processor with Radeon Graphic",
+    "brand": "AMD",
+    "category": "Processor",
+    "status": "In Stock",
+    "price": 100,
+    "description": "The AMD Ryzen 5 5600G Processor with Radeon Graphics is built in intelligence featuring 6 processor cores, 12 threads, and an astonishingly efficient 45-65W TDP. In this processor, It stands with 3.9GHz Base Clock, 4.4GHz Max Boost Clock, 3MB L2 Cache, 16MB L3 Cache with AM4 Package and TSMC 7nm FinFET CMOS. This processor is built with PCIe 3.0 x8 and Wraith Spire Thermal Solution. The AMD Ryzen 5 5600G Processor provides DDR4 Up to 3200MHz memory with 2 memory channels. With the high processing capability, this processor is also integrated with Radeon Graphics. The processor has a graphics frequency of 1900MHz and a graphics Core count of 7. The AMD Ryzen 5 5600G Processor is built for modern business, AMD technologies provide layers of protection, seamless manageability, and reliable longevity.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "Ryzen 5 5600G"
+      },
+      {
+        "title": "Clock Speed",
+        "description": "3.9GHz up to 4.4GHz"
+      },
+      {
+        "title": "CPU Cores & Threads",
+        "description": "Cores: 6,Threads: 12"
+      },
+      {
+        "title": "Cache",
+        "description": "16 MB"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "I ma currently using this processor. It's very budget friendly and the best processor in this budget right now."
+      },
+      {
+        "userName": "Khairul",
+        "message": "Very good processor in this budget. Low budget consumers 1st choice. (AKA Jatiyo Processor.)"
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asus/tuf-gaming-b760m-plus-d4/tuf-gaming-b760m-plus-d4-01-500x500.webp",
+    "name": "Asus TUF GAMING B760M-PLUS D4 12th Gen & 13th Gen Motherboard",
+    "brand": "Asus",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": 250,
+    "description": "The Asus TUF GAMING B760M-PLUS D4 Motherboard combines all of the main components of the most recent Intel CPUs with game-ready features and proven endurance. This motherboard exceeds expectations with rock-solid performance for marathon gaming, thanks to military-grade components, an enhanced power solution, and a sophisticated cooling system. TUF GAMING motherboards are also subjected to extensive durability testing to guarantee that they can withstand situations that might cause other motherboards to fail. This model features an embossed nameplate and geometric design elements to symbolize the reliability and stability that is synonymous with the TUF GAMING line. The Asus TUF GAMING Alliance is a cooperation between ASUS and well-known PC component manufacturers to assure compatibility across a wide variety of parts, including PC cases, power supplies, CPU coolers, memory kits, and more. The TUF GAMING Alliance will grow even stronger as new collaborations and components are added regularly. The Asus TUF GAMING B760M motherboards offer a feature-rich high-performance gaming package, including ultrafast networking for smoother online gameplay, pristine audio with positional cues for FPS gaming, and onboard RGB lighting that syncs with connected gear to personalize your gaming environment.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "TUF GAMING B760M-PLUS D4"
+      },
+      {
+        "title": "Supported CPU",
+        "description": "13th Gen & 12th Gen Processors (LGA1700)"
+      },
+      {
+        "title": "Supported Memory",
+        "description": "4 x DIMM, Max. 128GB, DDR4"
+      },
+      {
+        "title": "Graphics Output",
+        "description": "1 x DisplayPort, 1 x HDMI"
+      }
+    ],
+    "individualRating": 4.5,
+    "averageRating": 4.9,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "Very capable Motherboard"
+      },
+      {
+        "userName": "Khairul",
+        "message": "Good Motherboard"
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/wz29TL7/z690-aorus-elite-ddr4-01-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "GIGABYTE Z690 AORUS ELITE DDR4 12th Gen ATX Motherboard",
+    "brand": "GIGABYTE",
+    "category": "Motherboard",
+    "status": "Out of Stock",
+    "price": 280,
+    "description": "The GIGABYTE Z690 AORUS ELITE DDR4 Supports with 12th Gen Intel Core Series Processors, Dual Channel Non-ECC Unbuffered DDR4, 4 DIMMs. The Z690 AORUS gaming motherboards is the king of gaming platform continues the legendary AORUS bloodline with the most robust power delivery and dominant thermal design, glorified with the complete memory overclocking technology, which helps to crown your PC with the best Alder Lakeâ€™s performance in all its gaming glory. This GIGABYTE motherboard designed with Direct 16+1+2 Digital VRM Design with 70A Power Stage. The motherboard is featured with DDR4 XTREME MEMORY Design with SMD DIMM and Shielded Memory Routing, Fully Covered Thermal Design with High Coverage MOSFET Heatsinks, AMP-UP Audio with ALC1220 and WIMA Audio Capacitors, Fast 2.5GbE LAN with Bandwidth Management and 4x Ultra-Fast NVMe PCIe 4.0/3.0 x4 M.2 with Enlarged Thermal Guards. GIGABYTE still keep up with the latest trends and features with the latest technology. GIGABYTE Z690 Series motherboards come with upgraded power solution, latest storage standards and outstanding connectivity to enable optimized performance for gaming.â€‹ The Motherboard has SuperSpeed USB 3.2 Gen2x2 TYPE-C delivers up to 20Gb/s transfer speeds, RGB FUSION 2.0 with Multi-Zone Addressable LED Light Show Design, Support Addressable LED & RGB LED Strips, Smart Fan 6 Features Multiple Temperature Sensors , Hybrid Fan Headers with FAN STOP and Q-Flash Plus Update BIOS without Installing the CPU, Memory and Graphics Card. The latest GIGABYTE Z690 AORUS ELITE DDR4 comes with 03 years warranty.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "Z690 AORUS ELITE DDR4"
+      },
+      {
+        "title": "Supported CPU",
+        "description": "12th Gen Intel Core Series Processors"
+      },
+      {
+        "title": "Supported Memory",
+        "description": "Dual Channel Non-ECC Unbuffered DDR4, 4 DIMMs"
+      },
+      {
+        "title": "Graphics Output",
+        "description": "1 x DisplayPort, 1 x HDMI"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "Very Good motherboard. recommended."
+      },
+      {
+        "userName": "Khairul",
+        "message": "I liked this mobo."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/F46sq21/mag-b550m-mortar-max-wifi-01-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "MSI MAG B550M MORTAR MAX WIFI AMD AM4 Micro-ATX Motherboard",
+    "brand": "MSI",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": 190,
+    "description": "The MSI MAG B550M MORTAR MAX WIFI Motherboard supports AMD Ryzen 5000 Series, 5000 G-Series, 4000G-Series, and 3000 Series processors for Socket AM4. It comes with 4x DDR4 memory slots that support up to 128GB. It can deliver a lightning-fast game experience with PCIe 4.0, Lightning Gen 4 x4 M.2 with M.2 Shield Frozr, and AMD Turbo USB 3.2 Gen 2. This motherboard comes with a premium thermal solution. It has an extended heatsink design with an additional choke thermal pad rated for 7W/mk and PCB with 2oz thickened copper is built for a high-performance system and non-stop gaming experience. It features an 8+2+1 Duet Rail Power System, Digital PWM, Core Boost, and DDR4 Boost. The MSI MAG B550M MORTAR MAX WIFI motherboard is equipped with 2.5G LAN with LAN Manager and AMD Wi-Fi 6E Solution. 2.5Gbps LAN provides incredible data transfer speed faster than general Gigabit LAN. This is a premium solution for demanding users. The latest Wi-Fi 6E solution supports a 6GHz spectrum, Bluetooth 5.2, two-way MU-MIMO, and BSS color technology, providing up to 4X network capacity and efficiency in the high signal density environment, delivering speeds up to 2400Mbps. It comes with Steel Armor PCI-E slots. Supports AMD Crossfire. It is built with a variety of connectors to satisfy gamers. Enhanced audio, advanced LAN networking capabilities, USB, and Mystic Light turn any gaming experience into an immersing one. The MSI MAG B550M MORTAR MAX WIFI Motherboard comes with 3 years of warranty.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "MAG B550M MORTAR MAX WIFI"
+      },
+      {
+        "title": "Supported CPU",
+        "description": "Ryzen 5000, 5000 G, 4000G, and 3000 Series processors"
+      },
+      {
+        "title": "Supported Memory",
+        "description": "4x DDR4, up to 128GB, 4400+(OC) MHz"
+      },
+      {
+        "title": "Graphics Output",
+        "description": "1x HDMI, 1x DisplayPort"
+      }
+    ],
+    "individualRating": 4.5,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "I ma currently using this Motherboard. It's very budget friendly and the best in this budget right now."
+      },
+      {
+        "userName": "Khairul",
+        "message": "Very good Motherboard in this budget. Low budget consumers 1st choice."
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/ram/cosair/vengeance-rgb/vengeance-rgb-01-500x500.webp",
+    "name": "Corsair VENGEANCE RGB 32GB (2x16GB) DDR5 5200MHz C40 AMD EXPO RAM Kit",
+    "brand": "Corsair",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": 160,
+    "description": "The Corsair VENGEANCE RGB 32GB (2x16GB) DDR5 5200MHz C40 AMD EXPO RAM Kit is a high-performance memory kit designed for AMD motherboards. With a capacity of 32GB, it provides ample memory for demanding tasks and applications. The DDR5 technology ensures faster data transfer rates and improved overall performance compared to its DDR4 counterparts. Operating at a frequency of 5200MHz, this RAM kit delivers exceptional speed and responsiveness, allowing for smooth multitasking and seamless gaming experiences. The 288-pin form factor ensures compatibility with most modern motherboards, providing easy installation and setup. The voltage and CAS latency of the Corsair VENGEANCE RGB DDR5 RAM are optimized for efficient performance. With a voltage of 1.25V and a CAS latency of C40, the RAM operates at an optimal power level while maintaining low latency for faster data access. This RAM kit is the ten-zone RGB lighting. The RGB lighting adds a vibrant and customizable visual element to your PC, allowing you to personalize the aesthetics and create stunning lighting effects. You can sync the lighting with other compatible RGB components to create a unified lighting theme throughout your system. The Corsair VENGEANCE RGB 32GB DDR5 RAM Kit is an excellent choice for users who prioritize performance and aesthetics. It offers high-speed DDR5 memory, optimized for AMD motherboards, and features customizable RGB lighting to enhance the visual appeal of your cutting-edge PC build.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "VENGEANCE RGB"
+      },
+      {
+        "title": "Capacity",
+        "description": "32 GB"
+      },
+      {
+        "title": "Frequency",
+        "description": "DDR5 5200MHz"
+      },
+      {
+        "title": "Voltage & Cas Latency",
+        "description": "1.25V/C40"
+      }
+    ],
+    "individualRating": 4.8,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "It looks Stunning! And the performance is beast."
+      },
+      {
+        "userName": "Khairul",
+        "message": "The best one i have ever choose."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/R2cLYvY/delta-white-10-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "TEAM T-Force DELTA RGB White 16GB 3200MHz DDR4 CL16 Gaming RAM",
+    "brand": "TEAM",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": 60,
+    "description": "The TEAM T-Force DELTA RGB White 16GB 3200MHz DDR4 CL16 Gaming RAM is a one-piece, geometric line design that makes the heat spreader seem simple yet lively, as well as the Cubist style in the new art movement, which is a wonderful marriage of technology and aesthetics. ASUS Aura Sync / GIGABYTE RGB Fusion 2.0 / MSI Mystic Light Sync / ASROCK-Polychrome Sync / BIOSTAR Advanced VIVID LED DJ / TT RGB Plus/RAZER CHROMA software are all supported by the T-FORCE DELTA RGB memory module. With this lightning-controlled program, gamers may control lighting effects and lighting synchronization with the T-FORCE DELTA RGB luminous memory module. It delivers a spectacular RGB system and generates a one-of-a-kind, dazzling color aesthetic! Increasing the distance between the power layer and the signal layer by using the most recent customized JEDEC RC 2.0 circuit board. When compared to regular memory, the sending signal is 35% stronger. There will be no interference between the power and the signal, and the performance will be improved. It entirely relieves the memory module's transmission and provides gamers with the greatest overclocking feeling as well as a very stable overclocking memory module. It is plug and plays ready. Overclocking can be super easy without the hassle of manually adjusting the BIOS. It is compatible with both Intel & AMD platforms, therefore gamers can easily enjoy overclocking without worries. With a low working voltage of 1.2~1.4V from DDR4 DELTA RGB, it is not only energy saving but can also reduce the temperature and the heat generated to offer the high-speed running memory a stable and long time operation. Multiple compatibility checks with common DDR4 motherboards to ensure stability with all QVL motherboards (Qualified Vendor List). The ideal combination's aesthetic design neatly represents a pair of soaring wings. They reflect the ability of TEAMGROUP's high-quality and extreme-performance gaming goods to allow all gamers to surpass the speed limit and enjoy the ever-changing world of gaming. The TEAM T-Force DELTA RGB White 16GB 3200MHz DDR4 CL16 RAM comes with a lifetime warranty.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "T-Force DELTA RGB"
+      },
+      {
+        "title": "Capacity",
+        "description": "16 GB"
+      },
+      {
+        "title": "Frequency",
+        "description": "DDR4, Speed: 3200Mhz"
+      },
+      {
+        "title": "Voltage & Cas Latency",
+        "description": "1.35V/CL16"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "It looks Stunning! And the performance is beast."
+      },
+      {
+        "userName": "Khairul",
+        "message": "Very Good Ram."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/tQNzSBM/trident-z5-rgb-32gb-01-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "G.Skill Trident Z5 RGB 32GB DDR5 6000MHz Desktop RAM",
+    "brand": "G.Skill",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": 140,
+    "description": "The G.Skill Trident Z5 RGB 32GB DDR5 6000MHz Desktop RAM is a high-performance memory module built for desktop PCs. It has a capacity of 32GB and is designed with DDR5 memory. This RAM module is built for speed and performance, with a tested speed of 6000 MT/s and a tested latency of 32-38-38-96. To function properly, the G.Skill Trident Z5 RGB 32GB DDR5 6000MHz Desktop RAM requires a voltage of 1.40V. It is unbuffered and non-ECC, making it perfect for professional or high-performance gaming. The SPD speed is 4800 MT/s, and the voltage is set to 1.10V by default. The G.Skill Trident Z5 RGB 32GB DDR5 6000MHz Desktop RAM is Intel XMP 3.0 (Extreme Memory Profile) Compatible, which is one of its notable qualities. This implies that it has been verified and certified to operate with Intel-based motherboards that support XMP, making it simple and quick to configure the RAM's performance parameters. The G.Skill Trident Z5 RGB 32GB DDR5 6000MHz Desktop RAM offers RGB illumination that can be configured to fit the aesthetics of your computer design, in addition to its amazing performance specs. Overall, this RAM module is an excellent option for gamers, content creators, and professionals that want exceptional speed and dependability from their computer's memory.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "Trident Z5 RGB"
+      },
+      {
+        "title": "Capacity",
+        "description": "32 GB"
+      },
+      {
+        "title": "Frequency",
+        "description": "DDR5, Tested Speed: 6000MHz"
+      },
+      {
+        "title": "Voltage & Cas Latency",
+        "description": "1.40V/CL32"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "Blazing Fast DDR5 Performance."
+      },
+      {
+        "userName": "Khairul",
+        "message": "Very Good performance and also decent looks."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/G0XHjNd/dq850m-v3l-01-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "Deepcool DQ850M-V3L 850W 80 Plus Bronze Full Modular Power Supply",
+    "brand": "Deepcool",
+    "category": "Power Supply Unit",
+    "status": "In Stock",
+    "price": 115,
+    "description": "Deepcool DQ850M-V3L 850W is a Full Modular Power Supply with 80 Plus Bronze certification. This new Deepcool power supply is made entirely of Japanese capacitors and employs high-quality switch MOSFETs. The DQ850M-V3L is designed to provide stable output capacity with high conversion efficiency, improving the reliability of your PC system. The Deepcool Full Modular Power Supply is 80 PLUS Bronze Certified, so you'll get all the power you need while saving up to 91.2% on energy consumption and waste heat. The DQ850M-V3L delivers improved performance with lower power dissipation, increased quality, and better thermals to meet your needs. It has active Power Factor Correction (PFC), a full bridge LLC resonant converter, and synchronous rectification DC-DC design. The 120mm silent fan in this PSU has a temperature control feature to maintain low noise. tight fan curve, quiet operation, and quiet operation. The Circuit Shield in this Power Supply shields your PSU from issues with irregular voltage and current, such as shorting, over-powering, and overheating.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "DQ850M-V3L"
+      },
+      {
+        "title": "MPN",
+        "description": "DQ850M-V3L-UK"
+      },
+      {
+        "title": "Certification",
+        "description": "80 PLUS Bronze Certified"
+      },
+      {
+        "title": "Power",
+        "description": "850W"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": []
+  },
+  {
+    "image": "https://i.ibb.co/LnsX3Jh/sp750-01-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "Lian Li SP750 Performance SFX 80 PLUS Gold Fully Modular Power Supply",
+    "brand": "Lian Li",
+    "category": "Power Supply Unit",
+    "status": "In Stock",
+    "price": 130,
+    "description": "The Lian Li SP750 Performance SFX Power Supply is a stylish high-performance PSU that perfectly fits small-form-factor PCs while supporting power-hungry components. It comes with an 80 PLUS Gold Certificate so it can guarantee up to 92% efficiency, ensuring less power wastage. The Lian Li SP750 features a 92mm hydraulic bearing fan that operates at zero RPM mode until 40% load in order to achieve minimal acoustic levels. This PSU features Premium Japanese electrolytic capacitors that provide great durability and long-term reliability, as well as offering the highest stability. This fully modular power supply provides all necessary braided cables right out of the box, ensuring less cable clutter and more aesthetics. It comes with 1 x 24 / 20-Pin motherboard connector (300mm) x 1pcs, 2 x 8 / 4-Pin CPU / ATX 12V connector (450mm-70mm) x 1 pcs, 1 x 8 / 6+2 Pin PCIe connector (400mm) x 1pcs, 2 x 8 / 6+2 Pin PCIe connector (400mm-120mm) x 1pcs, 4 x SATA connector (120mm-120mm-120mm-120mm) x 2pcs, and 4 x 4-Pin Peripheral connector (120mm-120mm-120mm-120mm) x 1pcs. The Lian Li SP750 comes with 5 years of warranty.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "SP750"
+      },
+      {
+        "title": "MPN",
+        "description": "G89.SP750B.00UK"
+      },
+      {
+        "title": "Certification",
+        "description": "80 PLUS Gold Certified"
+      },
+      {
+        "title": "Power",
+        "description": "750W"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "Very good PSU."
+      },
+      {
+        "userName": "Khairul",
+        "message": "Best PSU."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/dQzrp2R/toughpower-gf1-argb-750w-01-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "Thermaltake Toughpower GF1 ARGB 750W 80 Plus Gold Fully Modular Power Supply",
+    "brand": "Thermaltake",
+    "category": "Power Supply Unit",
+    "status": "In Stock",
+    "price": 120,
+    "description": "The Thermaltake Toughpower GF1 ARGB 750W 80 Plus Gold Power Supply features a 140mm hydraulic bearing fan, Japanese capacitors, and other premium components to help deliver a continuous and stable power with an ambient temperature of up to 50Â°C, while near-silent operation and reliable performance are guaranteed. It is crafted by using cutting-edge technology and materials to become the fusion of aesthetics and performance. The patented 16.8 million-color Riing Duo 14 RGB fan with 18 LEDs preinstalled helps deliver a brighter and stunning light effect. The meticulously designed ARGB side panels enable the light to glow through. The series supports synchronization with compatible RGB motherboards from ASUS, GIGABYTE, MSI, and ASRock for countless illumination possibilities. With the most stable but silent operation, the Toughpower GF1 ARGB Gold meets and even exceeds the demanding specification of the overclocker or enthusiastic PC user. The built-in Riing Duo 14 RGB Fan features dual rings with 18 addressable LEDs, great light coverage, and uniform color and brightness to paint your build with 16.8 million colors. With Smart Zero Fan starting to operate when the power supply working load goes over 30%, the undesired noise will be minimized. A user-friendly switch is set on the back panel for those who prefer the fan to spin constantly. It comes with high-quality 105 Â°C (221 Â° F) Japanese capacitors to help improve durability and offer impressive stability. It saves energy through its high energy efficiency of up to 90% and is certified to 80 PLUS Gold. The Thermaltake Toughpower GF1 ARGB 750W comes with 10 years of warranty.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "Toughpower GF1 ARGB 750w Gold"
+      },
+      {
+        "title": "MPN",
+        "description": "PS-TPD-0750F3FAGE-1"
+      },
+      {
+        "title": "Certification",
+        "description": "80 PLUS Gold Certified"
+      },
+      {
+        "title": "Power",
+        "description": "750W"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "Very good PSU."
+      },
+      {
+        "userName": "Khairul",
+        "message": "I am satisfied with the performance of this PSU."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/g78Xk46/970-evo-plus-2tb-01-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "Samsung 970 EVO Plus 2TB NVMe M.2 SSD",
+    "brand": "Samsung",
+    "category": "Storage Device",
+    "status": "In Stock",
+    "price": 190,
+    "description": "The Transcend 225S 2TB 2.5 Inch SATA III SSD is extremely durable and stable, with fast transfer speeds, making it excellent for upgrading your laptop or desktop! With up to 2TB of storage space and firmware optimization, you may save a lot of data. It is intended for use with both desktop and laptop computers. With a single simple installation, you may experience faster program processing speeds, significantly improving PC performance. With a storage capacity of 2TB, you may keep a large number of images, audio files, and other media assets. Taking full use of the SATA III 6Gb/s interface and high-quality 3D NAND to flash, the Transcend 2TB SSD225S SATA Solid State Drive boosts its performance using SLC caching technology, giving up to 560MB/s read and 500MB/s write. The Transcend 225S 2TB 2.5 Inch SATA III SSD comes with a 03-year warranty.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "970 EVO Plus"
+      },
+      {
+        "title": "Read/Write Speed",
+        "description": "3,500/3,300 MB/s"
+      },
+      {
+        "title": "Capacity",
+        "description": "2TB"
+      },
+      {
+        "title": "Interface",
+        "description": "M.2 (2280)"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "Best ssd ever."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/xLwmCZL/force-mp-510-1-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "Corsair Force MP510 480 GB NVMe PCIe Gen3 M.2 SSD",
+    "brand": "Corsair",
+    "category": "Storage Device",
+    "status": "In Stock",
+    "price": 60,
+    "description": "The CORSAIR Force MP510 NVMe PCIe Gen3 x4 M.2 SSD provides extreme storage performance with blazing fast read speeds of up to 3,480MB/sec. All-new extreme data performance controller delivers up to 3,480MB/sec sequential read, and up to 3,000MB/s sequential write, for blazing fast read, write and response times. For simple connection and maximum bandwidth. Provides the ideal mix of performance, endurance and value to keep your drive performing at its best for years. Ultra-compact M.2 2280 size fits directly into your notebook or motherboard with no additional cables or connectors. Long-term reliability and industry leading customer support for peace of mind.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "CORSAIR Force MP510"
+      },
+      {
+        "title": "Capacity",
+        "description": "480GB"
+      },
+      {
+        "title": "Interface",
+        "description": "Compact M.2 2280 Form Factor"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": []
+  },
+  {
+    "image": "https://i.ibb.co/cFYFRW2/225s-1tb-01-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "Transcend 225S 2TB 2.5 Inch SATA III SSD",
+    "brand": "Transcend",
+    "category": "Storage Device",
+    "status": "Out of Stock",
+    "price": 150,
+    "description": "The Transcend 225S 2TB 2.5 Inch SATA III SSD is extremely durable and stable, with fast transfer speeds, making it excellent for upgrading your laptop or desktop! With up to 2TB of storage space and firmware optimization, you may save a lot of data. It is intended for use with both desktop and laptop computers. With a single simple installation, you may experience faster program processing speeds, significantly improving PC performance. With a storage capacity of 2TB, you may keep a large number of images, audio files, and other media assets. Taking full use of the SATA III 6Gb/s interface and high-quality 3D NAND to flash, the Transcend 2TB SSD225S SATA Solid State Drive boosts its performance using SLC caching technology, giving up to 560MB/s read and 500MB/s write. The Transcend 225S 2TB 2.5 Inch SATA III SSD comes with a 03-year warranty.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "225S"
+      },
+      {
+        "title": "MPN",
+        "description": "TS2TSSD225S"
+      },
+      {
+        "title": "Capacity",
+        "description": "2TB"
+      },
+      {
+        "title": "Interface",
+        "description": "SATA III 6Gb/s"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "Very reliable ssd."
+      },
+      {
+        "userName": "Khairul",
+        "message": "I am satisfied with the performance of this ssd."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/sKqmt8V/lg-32ep950-b-32-inch-4-K-monitor-01-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "LG 32EP950-B 32 Inch UltraFine OLED Pro 4K Professional Monitor",
+    "brand": "LG",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": 4500,
+    "description": "LG 32EP950-B 32-inch 4K Monitor is an excellent choice for professional video editors and content creators. The LG 32EP950-B is a 4K supported OLED Monitor with a 60Hz refresh rate.This monitor is specially designed for visual tech. Apart from master-grade picture quality this 32-inch 4K OLED Monitor has Pixel Dimming Technology and a stunning 1M: 1 Contrast Ratio. This monitor performs very well when exact color reproduction is Intended. The typical DCI-P3 reading is 99% with an Adobe RGB reading of 99% This Monitor also supports some special features. It comes with hardware Calibration and this monitor is a perfect fit for an optimized Workstation for Visual Tech or Graphics designers. This Monitor Supports Multi-Interface. 32",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "32EP950-B"
+      },
+      {
+        "title": "Resolution",
+        "description": "4K UltraFine OLED Pro (3840 x 2160)"
+      },
+      {
+        "title": "Display",
+        "description": "OLED, 60Hz, 1ms GTG"
+      },
+      {
+        "title": "Ports",
+        "description": "1x HDMI, 2x DP, 3x USB, Type-C"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "Awesome Monitor."
+      },
+      {
+        "userName": "Khairul",
+        "message": "Bang for the Bucks."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/vcPsskp/lc27t550fdw-01-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "Samsung LC27T550FDW 27-Inch FHD Curved Monitor",
+    "brand": "Samsung",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": 400,
+    "description": "The Samsung LC27T550FDW is the curve king. The industry leader in curved displays. Since becoming the first to bring revolutionary displays to the globe in 2015, Samsung has led the curved monitor industry. Samsung's curved monitors are routinely number one in market share, thanks to industry-leading technology across a broad line-up. Introducing the most daring curve ever created. This landmark, the result of years of persistent invention, alters the geometry of visual display and foreshadows the future of monitor technology. The Samsung LC27T550FDW has an advanced design. The remarkable look of the almost borderless display is accentuated by a fabric-textured backside and premium-quality slender metal support. As a consequence, the monitor not only draws attention but also compliments any interior design. Hello and welcome to your new playground. AMD FreeSync ensures smooth gaming, while 75Hz ensures fluid sceneries. For highly realistic immersion, this faultless vision is combined with Game Mode and the famed 1000R curve. Protect your eyes and get more done. Advanced eye comfort technology in the T55 lowers eye strain for more comfortable longer computing. Flicker-Free technology eliminates tedious and annoying screen flicker, while Eye Saver Mode reduces transmitted blue light. Your eyes will last longer. With a handy HDMI, DP, and D-Sub triple interface, you can connect to all of your favorite devices. Without plugging in a speaker, the built-in 5 Watt speakers make it even simpler to get lost in your favorite movies or TV shows. The Samsung LC27T550FDW Curved Monitor comes with a 03-year warranty.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "LC27T550FDW"
+      },
+      {
+        "title": "Resolution",
+        "description": "FHD (1920 x 1080)"
+      },
+      {
+        "title": "Display",
+        "description": "VA, 75Hz, 4ms"
+      },
+      {
+        "title": "Ports",
+        "description": "HDMI, DP, 3.5mm Audio Out"
+      }
+    ],
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "Good for productivity like programming."
+      },
+      {
+        "userName": "Khairul",
+        "message": "Not Good for video editing and photo-shop."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/252y9g6/e27q-g4-01-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "HP E27q G4 27 Inch 2K QHD IPS Monitor",
+    "brand": "HP",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": 4000,
+    "description": "HP E27q G4 Monitor comes with 27inch QHD (2560 x 1440) IPS Display, where the display is featured with nel active area (W x H) 59.67 x 33.56 cm, Aspect ratio16:9, Brightness (typical) 250 nits, Contrast ratio (typical) 1000:1 static, Response times 5ms GtG (with overdrive), Pixel pitch 0.233 mm, On-screen controls; Low blue light mode; Anti-glare. In this monitor, It has 1 x VGA; 1 x USB Type-B; 1 x HDMI 1.4; 1 x DisplayPort 1.2; 4 x USB-A 3.2 Gen 1 interface. The monitorn is also equipped with Input voltage 100 to 240 VAC and 60 W (maximum), 25 W (typical), 0.5 W (standby) Power consumption. The latest HP E27q G4 27 inch QHD IPS Monitor has 03 years warranty.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "E27q G4"
+      },
+      {
+        "title": "Resolution",
+        "description": "QHD (2560 x 1440) 2K"
+      },
+      {
+        "title": "Display",
+        "description": "OLED, 60Hz, 1ms GTG"
+      },
+      {
+        "title": "Ports",
+        "description": "1x HDMI, 1x DP, 1x VGA, 1x USB"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "Awesome Monitor."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/vhV1LKB/arc-a770-01-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "Intel Arc A770 Limited Edition 16GB GDDR6 Graphics Card",
+    "brand": "Intel",
+    "category": "Graphics Card",
+    "status": "In Stock",
+    "price": 400,
+    "description": "Intel Arc A770 Limited Edition Graphics Card features 16GB of GDDR6 VRAM and a 256-bit memory interface, offering performance and power efficiency. The Intel Arc A770 graphics card features Xe Super Sampling (XeSS), which is AI-enhanced upscaling powered by hardware acceleration. Enjoy high-res visuals with added performance. The front panel of the card features a variety of outputs, such as DisplayPort 2.0 and HDMI 2.1. For cooling, Intel implemented dual fans, which maximize downward airflow and air dispersion to the heat sink below them.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "Arc A770"
+      },
+      {
+        "title": "Memory Interface",
+        "description": "256-Bit Memory Interface"
+      },
+      {
+        "title": "Ports",
+        "description": "HDMI 2.1, DisplayPort 2.0"
+      }
+    ],
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "The new Budget king."
+      },
+      {
+        "userName": "Khairul",
+        "message": "Very good performer in budget."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/9YQpBPJ/geforce-rtx-4080-16gb-gaming-trio-01-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "MSI GeForce RTX 4080 16GB GAMING X TRIO GDDR6X Graphics Card",
+    "brand": "MSI",
+    "category": "Graphics Card",
+    "status": "In Stock",
+    "price": 2000,
+    "description": "The MSI GeForce RTX 4080 16GB GAMING X TRIO GDDR6X Graphics Card brings an enormous leap in performance, efficiency, and AI-powered graphics. It lets you experience ultra-high-performance gaming, incredibly detailed virtual worlds with ray tracing, unprecedented productivity, and new ways to create. It’s powered by the NVIDIA Ada Lovelace architecture and comes with 16 GB of G6X memory to deliver the ultimate experience for gamers and creators. The MSI GeForce RTX 4080 16GB GAMING X TRIO features TRI FROZR 3 Thermal Design. Fan blades linked by ring arcs and a fan cowl work together to stabilize and maintain high-pressure airflow. The heat from the GPU and memory modules is captured by a copper baseplate and then rapidly transferred to Core Pipes. The heat from the GPU and memory modules is immediately captured by a solid nickel-plated copper baseplate and then rapidly transferred to an array of heat pipes. This widening of the thermal transfer systems with highly efficient mechanisms improves overall efficiency. Fins with a V-shaped cutout are located at the airflow passthrough to improve flow efficiency. MSI GeForce RTX 4080 16GB GAMING X TRIO comes with Dual BIOS that gives you the choice to prioritize full performance in GAMING mode or low noise in SILENT mode. It comes with a bundled support bracket that can be attached to your PC case for additional graphics card reinforcement. The MSI GeForce RTX 4080 16GB GAMING X TRIO comes with 3 years warranty.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "GeForce RTX 4080 16GB GAMING X TRIO"
+      },
+      {
+        "title": "Memory Interface",
+        "description": "256-bit Memory Interface"
+      },
+      {
+        "title": "Ports",
+        "description": "DisplayPort x3, HDMI x1"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "Absolute Beast."
+      },
+      {
+        "userName": "Khairul",
+        "message": "Beast Machine."
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/graphics-card/gigabyte/aorus-geforce-rtx-4090-master-24g/aorus-geforce-rtx-4090-master-24g-01-500x500.webp",
+    "name": "GIGABYTE AORUS GeForce RTX 4090 MASTER 24GB GDDR6X Graphics Card",
+    "brand": "GIGABYTE",
+    "category": "Graphics Card",
+    "status": "In Stock",
+    "price": 3000,
+    "description": "The GIGABYTE AORUS GeForce RTX 4090 MASTER 24G Graphics Card is integrated with a 24GB GDDR6X 384-bit memory interface and it features NVIDIA Ada Lovelace Streaming Multiprocessors. It is equipped with advanced 4th Generation Tensor Cores for up to 2X AI performance and 3rd Generation RT Cores for up to 2X ray tracing performance. GIGABYTE AORUS GeForce RTX 4090 MASTER 24G is equipped with some special features such as a WINDFORCE cooling system, LCD Edge View, RGB Fusion 2.0, 4 video outputs, and a Protection metal backplate. The WINDFORCE cooling system features three 110mm newly designed bionic shark fans, alternate spinning, 13 composite copper heat pipes, a large vapor chamber directly touching the GPU, 3D active fans, and Screen cooling, which together provide high-efficiency heat dissipation. The double ball bearing structure has better heat endurance and efficiency than the sleeve structure. The 3D Active Fan provides semi-passive cooling, and the fans will remain off when the GPU is in a low load or low power game. The LCD monitor of the GIGABYTE AORUS GeForce RTX 4090 MASTER 24G Graphics Card not only displays graphics card information, but also various favorite texts, pictures, and GIFs. The legendary three-ring lighting provides excellent visual enjoyment. You can choose any lighting effect or synchronize it with other devices in the GIGABYTE CONTROL CENTER. The GIGABYTE AORUS GeForce RTX 4090 MASTER 24G Graphics Card features Dual Bios. The factory default setting is OC mode, which provides users with the best performance. However, switching to silent mode will enjoy a quieter experience. The metal back plate not only provides an aesthetical shape but also enhances the structure of the graphics card to provide complete protection. GIGABYTE AORUS GeForce RTX 4090 MASTER 24GB features the new anti-sag bracket tailored to each graphics card. It provides optimized reinforcement and a better overall visual appearance. The GIGABYTE AORUS GeForce RTX 4090 MASTER 24G comes with 3 years of warranty.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "AORUS GeForce RTX 4090 MASTER 24G"
+      },
+      {
+        "title": "Memory Interface",
+        "description": "384 bit Memory Interface"
+      },
+      {
+        "title": "Ports",
+        "description": "DisplayPort 1.4 x3, HDMI 2.1 x1"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "Top class."
+      },
+      {
+        "userName": "Khairul",
+        "message": "The best gpu."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/4VpbLDb/v1-frosted-black-01-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "Keychron V1 QMK Frosted Black Fully Assembled Knob RGB Hot-swappable Red Switch Custom Mechanical Keyboard",
+    "brand": "Keychron",
+    "category": "Others",
+    "status": "In Stock",
+    "price": 110,
+    "description": "The Keychron V1 QMK Fully Assembled Red Switch Custom Mechanical Keyboard is a fully customizable mechanical keyboard ready for any situation. Its a great option to introduce you to the custom keyboard world. With its compact 75% layout, QMK/VIA support, acoustic silicone pad, and double-shot PBT keycaps, the V1 is designed for ultra typing comfort and boost productivity. More freedom for developers will be offered by a potent, ultra-low-power ARM architecture MCU with 128K Flash. Because of the competitive game's zero delay and default polling rate of 1000 Hz.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "V1"
+      },
+      {
+        "title": "Layouts",
+        "description": "75% layout (82keys Barebone Version)"
+      },
+      {
+        "title": "Hot-Swappable",
+        "description": "Yes"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "Top class Keyboard."
+      },
+      {
+        "userName": "Khairul",
+        "message": "The best Keyboard."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/JHy0xMT/k70-rapidfire-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "Corsair K70 RGB Rapidfire Mechanical Gaming Keyboard Cherry MX-Low Profile Speed",
+    "brand": "Corsair",
+    "category": "Others",
+    "status": "In Stock",
+    "price": 150,
+    "description": "The K70 RGB RAPIDFIRE has CHERRYÂ® MX Speed RGB switches backed by a lightweight aluminum chassis. CUE enabled advanced lighting control and large font keycaps deliver dynamic, vibrant multi-color backlighting. To compete at the highest level, you need the fastest mechanical keyboard there is. RAPIDFIREâ€™s lightning-quick responsiveness and 100% anti-ghosting technology lets you strike with an unmatched combination of speed and precision. And the forged aluminum frame is built to withstand storm after storm of keystrokes, so youâ€™ll always live to fight another day. Corsair Utility Engine (iCUE) enables sophisticated macros and dramatic lighting effects. The USB pass-through port is positioned for uninterrupted game play, and a detachable wrist rest keeps you playing for hours. Unleash blistering speed with the 1.2mm mechanical actuation and durability of Gold contact CHERRYÂ® MX mechanical gaming key switches. Wield the ultimate performance advantage over your opponents with light operation 45g key switches and an actuation 40% faster than standard CHERRYÂ® MX Red switches. ",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "Corsair K70 RGB Rapidfire"
+      },
+      {
+        "title": "Layouts",
+        "description": "100% Anti- Ghosting with Key Rollover"
+      },
+      {
+        "title": "Hot-Swappable",
+        "description": "No"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "Top class Keyboard."
+      },
+      {
+        "userName": "Khairul",
+        "message": "The best Keyboard."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/4VpbLDb/v1-frosted-black-01-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "Keychron V1 QMK Frosted Black Fully Assembled Knob RGB Hot-swappable Red Switch Custom Mechanical Keyboard",
+    "brand": "Keychron",
+    "category": "Others",
+    "status": "In Stock",
+    "price": 110,
+    "description": "The Keychron V1 QMK Fully Assembled Red Switch Custom Mechanical Keyboard is a fully customizable mechanical keyboard ready for any situation. Its a great option to introduce you to the custom keyboard world. With its compact 75% layout, QMK/VIA support, acoustic silicone pad, and double-shot PBT keycaps, the V1 is designed for ultra typing comfort and boost productivity. More freedom for developers will be offered by a potent, ultra-low-power ARM architecture MCU with 128K Flash. Because of the competitive game's zero delay and default polling rate of 1000 Hz.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "V1"
+      },
+      {
+        "title": "Layouts",
+        "description": "75% layout (82keys Barebone Version)"
+      },
+      {
+        "title": "Hot-Swappable",
+        "description": "Yes"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "Top class Keyboard."
+      },
+      {
+        "userName": "Khairul",
+        "message": "The best Keyboard."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/gRnXZPs/huntsman-elite-1-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "Razer Huntsman Elite Opto-Mechanical Clicky Switch Gaming Keyboard",
+    "brand": "Razer",
+    "category": "Others",
+    "status": "In Stock",
+    "price": 200,
+    "description": "The Razer Huntsman Elite Opto-Mechanical Clicky Switch Gaming Keyboard utilizes optical technology for actuation, combined with a new switch design for actuation at the speed of light. And with optical actuation providing less physical contact, you get the durability of up to 100 million keystrokes.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "Razer Huntsman Elite Clicky Switch"
+      },
+      {
+        "title": "Layouts",
+        "description": "10 key roll-over with anti-ghosting"
+      },
+      {
+        "title": "Hot-Swappable",
+        "description": "Yes"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "The best keyboard ever."
+      },
+      {
+        "userName": "Khairul",
+        "message": "very good keyboard"
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/ySRYVmK/p707-rog-spatha-x-01-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "ASUS P707 ROG Spatha X Dual-mode RGB Gaming Mouse",
+    "brand": "ASUS",
+    "category": "Others",
+    "status": "In Stock",
+    "price": 200,
+    "description": "ASUS P707 ROG Spatha X is a Dual-mode RGB Gaming Mouse from ASUS. This wireless gaming mouse features dual-mode connectivity, allowing you to play wirelessly via RF 2.4 GHz or traditionally with a wired USB-CÂ® connection. A specially tuned 19,000 dpi sensor lets you take down opponents swiftly with extreme accuracy, while 12 programmable buttons ensure all commands are at your fingertips. In addition, ROG Spatha X features exclusive push-fit switch sockets, ROG Micro Switch, Aura Sync RGBs, and a magnetic charging dock.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "P707 ROG Spatha X"
+      },
+      {
+        "title": "Connection Type",
+        "description": "wired or wireless modes"
+      },
+      {
+        "title": "DPI",
+        "description": "19,000"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "The best Mouse ever."
+      },
+      {
+        "userName": "Khairul",
+        "message": "very good Mouse"
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/mouse/logitech/g502x/g502x-white-500x500.webp",
+    "name": "Logitech G502 X PLUS LIGHTSPEED Wireless Hero RGB Gaming Mouse White",
+    "brand": "Logitech",
+    "category": "Others",
+    "status": "In Stock",
+    "price": 150,
+    "description": "Logitech G502 X PLUS LIGHTSPEED Wireless Hero RGB Gaming Mouse has been completely redone with the newest gaming technology, including as our first-ever LIGHTFORCE hybrid switches, LIGHTSPEED pro-grade wifi, LIGHTSYNC RGB, and HERO 25K Optical Sensor. In order to never run out of power, the Logitech G502 X LIGHTSPEED Gaming Mouse is also compatible with POWERPLAY. Higher levels of speed and reliability are attained by cutting-edge hybrid optical-mechanical switches due to optical actuation. Professional-grade connectivity with a new protocol that achieves a response rate that is 68% quicker than the previous version. The G502 X also achieves up to 130 hours of battery life with RGB off and 37 hours when RGB is set to always on because to the remarkable efficiency of LIGHTSPEED technology. Hyperfast mode allows you to easily spin the lighter wheel. To scroll precisely, simply click to enter ratcheted mode. To access two more completely programmable controls, tilt left and right. This compact mouse may be adjusted for a variety of games and programs. Before needing to be recharged through the USB Type-C connector, Logitech G502 X PLUS LIGHTSPEED Wireless Hero RGB Gaming Mouse's built-in battery is expected to last up to 140 hours of gameplay or 37 hours with the RGB lights on.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "G502 X"
+      },
+      {
+        "title": "Connection Type",
+        "description": "wireless"
+      },
+      {
+        "title": "DPI",
+        "description": "25,600"
+      }
+    ],
+    "individualRating": 4.5,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "Good mouse"
+      },
+      {
+        "userName": "Khairul",
+        "message": "very good Mouse"
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/bQFdzC9/razer-viper-ultimate-101-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "Razer Viper Ultimate RGB Gaming Mouse with Charging Dock",
+    "brand": "Razer",
+    "category": "Others",
+    "status": "In Stock",
+    "price": 140,
+    "description": "Forget about average and claim the unfair advantage with the Razer Viper Ultimateâ€”a wireless gaming mouse built to win. Designed to be a true extension of a gamer, this deadly predator comes with our most cutting-edge technology and is ready to sink its fangs into the competition. 25% faster than any other wireless technology available, you wonâ€™t even realize that youâ€™re gaming with a wireless mouse due to its high-speed transmission, lowest click latency, and seamless frequency switching in the noisiest, data-saturated environments. Our new, improved sensor has an industry-leading 20,000 DPI with 99.6% resolution accuracy,",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "Razer Viper Ultimate"
+      },
+      {
+        "title": "Connection Type",
+        "description": "wired and wireless"
+      },
+      {
+        "title": "DPI",
+        "description": "20,000"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "Best mouse i have ever used."
+      },
+      {
+        "userName": "Khairul",
+        "message": "very good Mouse"
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/headphone/edifier/stax-spirit-s3/stax-spirit-s3-01-500x500.webp",
+    "name": "Edifier STAX SPIRIT S3 Wireless Over-Ear Headphone",
+    "brand": "Edifier",
+    "category": "Others",
+    "status": "In Stock",
+    "price": 310,
+    "description": "The Edifier STAX S3 Wireless Over-Ear Headphone is a flagship headphone created without compromise for stunning Hi-Res audio. This headphone is equipped with planar magnetic drivers to produce a cleaner sound with greater resolution and better imaging that's true to professional audio recordings. It also features The all-new Edifier EqualMass diaphragm technology that combines trusted and iconic components, including the Audeze Fluxor magnetic structure, Uniforce diaphragm, and Fazor phase management, accurately reproduce the original sound.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "STAX SPIRIT S3"
+      },
+      {
+        "title": "Driver",
+        "description": "89mm x 70mm Planar Magnetic Driver"
+      },
+      {
+        "title": "Connectivity",
+        "description": "3.5mm audio cable, Bluetooth"
+      }
+    ],
+    "individualRating": 4.5,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "Good Headphone."
+      },
+      {
+        "userName": "Khairul",
+        "message": "I liked this headphone."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/m4hMnnm/rog-fusion-ii-500-500x500-Photo-Room-png-Photo-Room.png",
+    "name": "Asus ROG Fusion II 500 Wired Over-Ear Gaming Headphone",
+    "brand": "Asus",
+    "category": "Others",
+    "status": "In Stock",
+    "price": 260,
+    "description": "The Asus ROG Fusion II 500 Wired Over-Ear Gaming Headphone is a premium RGB gaming headset with high definition sound, simulated 7.1 surround sound, and AI noise cancellation for a truly immersive gaming experience. It has a high-fidelity ESS 9280 Quad DACTM and 50 mm ASUS Precision speakers for strong bass and realistic sound quality. It also includes ROG AI Beamforming Microphones with AI Noise Cancelation to filter out background noise and improve voice quality. To balance the gameplay audio and in-game dialogue, you may quickly modify the game chat volume. Asus ROG Fusion II 500 Wired Over-Ear Gaming Headphone comes with a variety of customization choices, pre-set light effects, and multi-color RGB lighting with over 16.8 million colors to fit your style and mood. It also offers a lightweight and comfy design with ergonomic ear cushions that fit securely on your ears. The 3.5 mm, USB-C ®, and USB-A ports on the Asus ROG Fusion II 500 Wired Over-Ear Gaming Headphone make it compatible with PCs, Macs, PlayStation®, Nintendo SwitchTM, Xbox, and mobile devices. The Asus ROG Fusion II 500 Wired Over-Ear Gaming Headphone will give you an excellent and immersive gaming experience whether you are playing, streaming, or listening to music.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "ROG Fusion II 500"
+      },
+      {
+        "title": "Driver",
+        "description": "50mm Driver"
+      },
+      {
+        "title": "Connectivity",
+        "description": "USB-A, USB-C, 3.5mm"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "Good Headphone."
+      },
+      {
+        "userName": "Khairul",
+        "message": "I liked this headphone."
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/headphone/rode/nth-100m/nth-100m-01-500x500.webp",
+    "name": "RODE NTH-100M Professional Over-ear Headset",
+    "brand": "RODE",
+    "category": "Others",
+    "status": "In Stock",
+    "price": 250,
+    "description": "The RODE NTH-100M is a professional over-ear headset that combines exceptional audio performance with a broadcast-grade headset microphone. The NTH-100M offers flawless audio and crystal-clear voice capture in an incredibly cozy and fashionable package, making it ideal for anyone working in the media or broadcast industry, podcasting, streaming, gaming, or working from home or the office.",
+    "keyFeatures": [
+      {
+        "title": "Model",
+        "description": "NTH-100M"
+      },
+      {
+        "title": "Driver",
+        "description": "40mm Custom-matched drivers"
+      },
+      {
+        "title": "Connectivity",
+        "description": "Dual TRRS Cable Attachments"
+      }
+    ],
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "userName": "Razib",
+        "message": "Good Headphone."
+      },
+      {
+        "userName": "Khairul",
+        "message": "I liked this headphone."
+      }
+    ]
+  }
+]

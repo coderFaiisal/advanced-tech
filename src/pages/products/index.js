@@ -22,15 +22,9 @@ export const getStaticProps = async () => {
   const res = await fetch(`${process.env.BASE_URL}/products`);
   const data = await res.json();
 
-  const filteredData = data
-    .sort(() => {
-      return 0.5 - Math.random();
-    })
-    .slice(0, 40);
-
   return {
     props: {
-      products: filteredData,
+      products: data,
     },
     revalidate: 30,
   };
