@@ -14,7 +14,7 @@ const ProductCard = ({ product }) => {
         >
           <Image
             className="rounded-t-lg w-full p-4"
-            src={product?.image}
+            src={product?.images}
             alt={product?.name}
             priority={true}
             quality={100}
@@ -29,10 +29,10 @@ const ProductCard = ({ product }) => {
           <div className="absolute bottom-0 left-0">
             <div
               className={`text-xs font-medium text-white ${
-                product?.status === "Out of Stock" ? "bg-red-600" : "bg-black"
+                product?.Status === "Out of Stock" ? "bg-red-600" : "bg-black"
               } bg-opacity-90 rounded-tr-xl text-center px-2 py-1`}
             >
-              <span>{product?.status}</span>
+              <span>{product?.Status}</span>
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@ const ProductCard = ({ product }) => {
               <div className="flex items-center space-x-2 mr-2">
                 <Rating
                   className="leading-none space-x-1"
-                  initialRating={product?.averageRating}
+                  initialRating={product?.rating}
                   readonly
                   fullSymbol={
                     <svg
@@ -70,14 +70,14 @@ const ProductCard = ({ product }) => {
                 />
                 {/* Rate */}
                 <div className="inline-flex text-sm font-medium text-amber-600">
-                  {product?.averageRating}
+                  {product?.rating}
                 </div>
               </div>
 
               {/* Price */}
               <div>
                 <div className="inline-flex text-sm font-medium bg-black text-white rounded-lg text-center px-2 py-0.5">
-                  ${product?.price}
+                  ${product?.Price}
                 </div>
               </div>
             </div>

@@ -8,16 +8,35 @@ const product = async (req, res) => {
     .db(process.env.DB_NAME)
     .collection(process.env.DB_COLLECTION_NAME);
 
-  const { productId } = req.query;
-  console.log(req.query);
+  const { id } = req.query;
+
+  const category = [
+    "Processor",
+    "Motherboard",
+    "Graphics Card",
+    "RAM",
+    "Power Supply Unit",
+    "Storage Device",
+    "Monitor",
+    "Others",
+  ];
 
   if (req.method === "GET") {
-    const product = await productsCollection.findOne({
-      _id: new ObjectId(productId),
-    });
-
-    res.send(product);
+    if (category.includes(id)) {
+      const products = await productsCollection
+        .find({
+          category: id,
+        })
+        .toArray();
+      res.send(products);
+    } else {
+      const product = await productsCollection.findOne({
+        _id: new ObjectId(id),
+      });
+      res.send(product);
+    }
   }
+  
 };
 
 export default product;

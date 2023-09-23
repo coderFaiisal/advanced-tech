@@ -8,6 +8,7 @@ import dynamic from "next/dynamic";
 const Banner = dynamic(() => import("@/components/ui/Banner"));
 
 const HomePage = ({ products, categories }) => {
+
   return (
     <div>
       <Head>
@@ -59,7 +60,7 @@ export const getStaticProps = async () => {
   const productsData = await productsResponse.json();
 
   const filteredData = productsData
-    .filter((product) => product?.status === "In Stock")
+    .filter((product) => product?.Status === "In Stock")
     .sort(() => {
       return 0.5 - Math.random();
     })
