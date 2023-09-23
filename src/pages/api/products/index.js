@@ -5,7 +5,7 @@ const products = async (req, res) => {
 
   const productsCollection = client
     .db(process.env.DB_NAME)
-    .collection(process.env.DB_COLLECTION_NAME);
+    .collection(process.env.DB_PRODUCTS_COLLECTION);
 
   if (req.method === "GET") {
     const products = await productsCollection.find({}).toArray();
