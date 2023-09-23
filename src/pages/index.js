@@ -4,6 +4,7 @@ import React from "react";
 import coverImage from "../../public/coverImage.jpg";
 import RootLayout from "@/components/layout/RootLayout";
 import ProductCard from "@/components/ui/ProductCard";
+import CategoryCard from "@/components/ui/CategoryCard";
 
 const HomePage = ({ products, categories }) => {
   return (
@@ -36,7 +37,9 @@ const HomePage = ({ products, categories }) => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-14 px-8 max-w-screen-2xl mx-auto">
             {categories?.map((category) => (
-              <p key={category?._id}>Hello</p>
+              <CategoryCard key={category?._id} category={category}>
+                Hello
+              </CategoryCard>
             ))}
           </div>
         </div>
@@ -70,5 +73,6 @@ export const getStaticProps = async () => {
       products: filteredData,
       categories: categoriesData,
     },
+    revalidate: 30,
   };
 };
