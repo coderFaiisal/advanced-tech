@@ -96,7 +96,7 @@ function NavListMenu() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
 
   const renderItems = navListMenuItems.map((list) => (
-    <a href="#" key={list?.name}>
+    <a key={list?.name}>
       <MenuItem className="flex items-center gap-3 rounded-lg">
         <div className={`rounded-lg p-5 ${colors[list?.color]}`}>
           {React.createElement(list?.icon, {
@@ -166,41 +166,28 @@ function NavListMenu() {
 function NavList() {
   return (
     <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1">
-      <Typography
-        as="a"
-        variant="small"
-        color="blue-gray"
-        className="font-normal"
-      >
-        <ListItem className="flex items-center gap-2 py-2 pr-4">
+      <Link href="/">
+        <ListItem className="flex items-center gap-2 py-2 pr-4 font-normal text-sm blue-gray">
           <HiMiniHome className="h-[18px] w-[18px]" />
           Home
         </ListItem>
-      </Typography>
+      </Link>
 
       <NavListMenu />
-      <Typography
-        as="a"
-        variant="small"
-        color="blue-gray"
-        className="font-normal"
-      >
-        <ListItem className="flex items-center gap-2 py-2 pr-4">
+
+      <Link href="/products">
+        <ListItem className="flex items-center gap-2 py-2 pr-4 font-normal text-sm blue-gray">
           <IoCubeSharp className="h-[18px] w-[18px]" />
           Products
         </ListItem>
-      </Typography>
-      <Typography
-        as="a"
-        variant="small"
-        color="blue-gray"
-        className="font-normal"
-      >
-        <ListItem className="flex items-center gap-2 py-2 pr-4">
+      </Link>
+
+      <Link href="/marketPlace">
+        <ListItem className="flex items-center gap-2 py-2 pr-4 font-normal text-sm blue-gray">
           <SiCoinmarketcap className="h-[18px] w-[18px]" />
           Marketplace
         </ListItem>
-      </Typography>
+      </Link>
     </List>
   );
 }
@@ -218,7 +205,9 @@ export function Header() {
   return (
     <Navbar className="mx-auto px-4 py-2 rounded-none">
       <div className="flex items-center justify-between text-blue-gray-900">
-        <Image src={logo} alt="logo" width={170} />
+        <Link href="/">
+          <Image src={logo} alt="logo" width={170} />
+        </Link>
         <div className="hidden lg:block">
           <NavList />
         </div>
