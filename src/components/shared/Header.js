@@ -25,6 +25,7 @@ import { CgSmartphoneRam } from "react-icons/cg";
 import { SiCoinmarketcap } from "react-icons/si";
 import { ImPower } from "react-icons/im";
 import { FiMonitor } from "react-icons/fi";
+import { MdOutlineDevicesOther } from "react-icons/md";
 import { LuHardDrive } from "react-icons/lu";
 import { RxCross1, RxHamburgerMenu } from "react-icons/rx";
 import Link from "next/link";
@@ -37,56 +38,64 @@ const colors = {
   teal: "bg-teal-50 text-teal-500",
   cyan: "bg-cyan-50 text-cyan-500",
   pink: "bg-pink-50 text-pink-500",
+  red: "bg-red-50 text-red-500",
 };
 
 const navListMenuItems = [
   {
     color: "blue",
-    name: "CPU/Processor",
-    link: "/products?category=CPU/Processor",
+    name: "Processor",
+    link: "/categories/Processor",
     icon: BsFillCpuFill,
     description: "Learn about our story and our mission statement.",
   },
   {
-    color: "orange",
-    name: "Motherboard",
-    link: "/products?category=Motherboard",
-    icon: BsFillMotherboardFill,
-    description: "Learn about our story and our mission statement.",
-  },
-  {
-    color: "green",
-    name: "RAM",
-    link: "/products?category=RAM",
-    icon: CgSmartphoneRam,
-    description: "Learn about our story and our mission statement.",
-  },
-  {
-    color: "purple",
-    name: "Power Supply Unit",
-    link: "/products?category=Power Supply Unit",
-    icon: ImPower,
-    description: "Learn about our story and our mission statement.",
-  },
-  {
-    color: "teal",
-    name: "Storage Device",
-    link: "/products?category=Storage Device",
-    icon: LuHardDrive,
-    description: "Learn about our story and our mission statement.",
-  },
-  {
-    color: "cyan",
+    color: "pink",
     name: "Monitor",
-    link: "/products?category=Monitor",
+    link: "/categories/Monitor",
     icon: FiMonitor,
     description: "Learn about our story and our mission statement.",
   },
   {
-    color: "pink",
-    name: "Other",
-    link: "/products?category=Other",
+    color: "green",
+    name: "Motherboard",
+    link: "/categories/Motherboard",
+    icon: BsFillMotherboardFill,
+    description: "Learn about our story and our mission statement.",
+  },
+  {
+    color: "teal",
+    name: "Graphics Card",
+    link: "/categories/Graphics Card",
+    icon: LuHardDrive,
+    description: "Learn about our story and our mission statement.",
+  },
+  {
+    color: "orange",
+    name: "RAM",
+    link: "/categories/RAM",
+    icon: CgSmartphoneRam,
+    description: "Learn about our story and our mission statement.",
+  },
+  {
+    color: "cyan",
+    name: "Storage Device",
+    link: "/categories/Storage Device",
     icon: BsBuildingAdd,
+    description: "Learn about our story and our mission statement.",
+  },
+  {
+    color: "red",
+    name: "Power Supply Unit",
+    link: "/categories/Power Supply Unit",
+    icon: ImPower,
+    description: "Learn about our story and our mission statement.",
+  },
+  {
+    color: "purple",
+    name: "Others",
+    link: "/categories/Others",
+    icon: MdOutlineDevicesOther,
     description: "Learn about our story and our mission statement.",
   },
 ];
@@ -96,27 +105,29 @@ function NavListMenu() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
 
   const renderItems = navListMenuItems.map((list) => (
-    <a key={list?.name}>
-      <MenuItem className="flex items-center gap-3 rounded-lg">
-        <div className={`rounded-lg p-5 ${colors[list?.color]}`}>
-          {React.createElement(list?.icon, {
-            className: "h-6 w-6",
-          })}
-        </div>
-        <div>
-          <Typography
-            variant="h6"
-            color="blue-gray"
-            className="flex items-center text-sm"
-          >
-            {list?.name}
-          </Typography>
-          <Typography variant="small" color="gray" className="font-normal">
-            {list?.description}
-          </Typography>
-        </div>
-      </MenuItem>
-    </a>
+    <div key={list?.name}>
+      <Link href={list?.link}>
+        <MenuItem className="flex items-center gap-3 rounded-lg">
+          <div className={`rounded-lg p-5 ${colors[list?.color]}`}>
+            {React.createElement(list?.icon, {
+              className: "h-6 w-6",
+            })}
+          </div>
+          <div>
+            <Typography
+              variant="h6"
+              color="blue-gray"
+              className="flex items-center text-sm"
+            >
+              {list?.name}
+            </Typography>
+            <Typography variant="small" color="gray" className="font-normal">
+              {list?.description}
+            </Typography>
+          </div>
+        </MenuItem>
+      </Link>
+    </div>
   ));
 
   return (

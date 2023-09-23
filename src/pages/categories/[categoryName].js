@@ -4,8 +4,6 @@ import { useRouter } from "next/router";
 const CategoryDetailsPage = ({ products }) => {
   const { query } = useRouter();
 
-  console.log(query, query?.categoryName)
-
   return (
     <div className="py-10">
       <div className="text-center dark:text-white pb-8">
@@ -41,8 +39,6 @@ export const getStaticProps = async (context) => {
     `${process.env.BASE_URL}/products/${params.categoryName}`
   );
   const data = await res.json();
-
-  console.log("data here: ", data);
 
   return {
     props: {
