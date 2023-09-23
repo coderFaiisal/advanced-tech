@@ -8,11 +8,12 @@ const product = async (req, res) => {
     .db(process.env.DB_NAME)
     .collection(process.env.DB_COLLECTION_NAME);
 
-  const { id } = req.query;
+  const { productId } = req.query;
+  console.log(req.query);
 
   if (req.method === "GET") {
     const product = await productsCollection.findOne({
-      _id: new ObjectId(id),
+      _id: new ObjectId(productId),
     });
 
     res.send(product);

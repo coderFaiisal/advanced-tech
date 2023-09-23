@@ -1,10 +1,11 @@
 import Head from "next/head";
-import Image from "next/image";
 import React from "react";
-import coverImage from "../../public/coverImage.jpg";
 import RootLayout from "@/components/layout/RootLayout";
 import ProductCard from "@/components/ui/ProductCard";
 import CategoryCard from "@/components/ui/CategoryCard";
+import dynamic from "next/dynamic";
+
+const Banner = dynamic(() => import("@/components/ui/Banner"));
 
 const HomePage = ({ products, categories }) => {
   return (
@@ -16,8 +17,7 @@ const HomePage = ({ products, categories }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Image src={coverImage} alt="background-image" layout="responsive" />
-
+        <Banner />
         <div className="py-10">
           <div className="text-center dark:text-white pb-8">
             <p className="text-4xl font-bold mb-2">Featured Products</p>
