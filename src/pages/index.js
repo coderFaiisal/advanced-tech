@@ -11,7 +11,7 @@ const HomePage = ({ products, categories }) => {
   return (
     <div>
       <Head>
-        <title>AT - HOME</title>
+        <title>ADVANCED TECH</title>
         <meta name="description" content="PC Builder Website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

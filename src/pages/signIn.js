@@ -23,7 +23,8 @@ const SignIn = () => {
             <Button
               onClick={() =>
                 signIn("google", {
-                  callbackUrl: "http://localhost:3000/pcBuilder",
+                  callbackUrl:
+                    "https://advanced-tech-virid.vercel.app/pcBuilder",
                 })
               }
               color="blue"
@@ -36,7 +37,8 @@ const SignIn = () => {
             <Button
               onClick={() =>
                 signIn("github", {
-                  callbackUrl: "http://localhost:3000/pcBuilder",
+                  callbackUrl:
+                    "https://advanced-tech-virid.vercel.app/pcBuilder",
                 })
               }
               color="black"
