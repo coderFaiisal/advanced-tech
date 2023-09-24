@@ -8,8 +8,17 @@ const products = async (req, res) => {
     .collection(process.env.DB_PRODUCTS_COLLECTION);
 
   if (req.method === "GET") {
-    const products = await productsCollection.find({}).toArray();
-    res.send(products);
+    try {
+      const products = await productsCollection.find({}).toArray();
+
+      if (!products) {
+        res.send("Products not found");
+      }
+
+      res.send(products);
+    } catch (error) {
+      console.error("Error get products data", error);
+    }
   }
 };
 

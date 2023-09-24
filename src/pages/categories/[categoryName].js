@@ -22,27 +22,47 @@ const CategoryDetailsPage = ({ products }) => {
 export default CategoryDetailsPage;
 
 export async function getStaticPaths() {
-  const res = await fetch(`${process.env.BASE_URL}/categories`);
-  const categories = await res.json();
+  try {
+    const res = await fetch(`${process.env.BASE_URL}/categories`);
+    const categories = await res.json();
 
-  const paths = categories.map((category) => ({
-    params: { categoryName: category?.name },
-  }));
+    const paths = categories.map((category) => ({
+      params: { categoryName: category?.name },
+    }));
 
-  return { paths, fallback: false };
+    return { paths, fallback: false };
+  } catch (error) {
+    console.error("Error fetching data:", error);
+    return {
+      paths: [],
+      fallback: false,
+    };
+  }
 }
 
 export const getStaticProps = async (context) => {
   const { params } = context;
 
-  const res = await fetch(
-    `${process.env.BASE_URL}/products/${params.categoryName}`
-  );
-  const data = await res.json();
+  try {
+    const res = await fetch(
+      `${process.env.BASE_URL}/products/${params.categoryName}`
+    );
 
-  return {
-    props: {
-      products: data,
-    },
-  };
+    if (!res.ok) {
+      throw new Error(`Fetch failed with status ${res.status}`);
+    }
+
+    const data = await res.json();
+
+    return {
+      props: {
+        products: data,
+      },
+    };
+  } catch (error) {
+    console.error("Error fetching data:", error);
+    return {
+      notFound: true,
+    };
+  }
 };

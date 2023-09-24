@@ -167,12 +167,24 @@ const PcBuilderPage = ({ categories }) => {
 export default PcBuilderPage;
 
 export const getServerSideProps = async () => {
-  const res = await fetch(`${process.env.BASE_URL}/categories`);
-  const data = await res.json();
+  try {
+    const res = await fetch(`${process.env.BASE_URL}/categories`);
 
-  return {
-    props: {
-      categories: data,
-    },
-  };
+    if (!res.ok) {
+      throw new Error("Fetch failed");
+    }
+
+    const data = await res.json();
+
+    return {
+      props: {
+        categories: data,
+      },
+    };
+  } catch (error) {
+    console.error("Error fetching data:", error);
+    return {
+      notFound: true,
+    };
+  }
 };

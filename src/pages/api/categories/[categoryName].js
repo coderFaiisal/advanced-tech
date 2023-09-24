@@ -10,11 +10,20 @@ const category = async (req, res) => {
   if (req.method === "GET") {
     const categoryName = req.query;
 
-    const category = await categoriesCollection.findOne({
-      name: categoryName,
-    });
+    try {
+      const category = await categoriesCollection.findOne({
+        name: categoryName,
+      });
 
-    res.send(category);
+      if (!category) {
+        res.send("Product not found");
+      }
+
+      res.send(category);
+    } catch (error) {
+      console.error("Error get category data", error);
+      res.send("Internal server error");
+    }
   }
 };
 

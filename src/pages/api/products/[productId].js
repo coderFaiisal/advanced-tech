@@ -23,17 +23,35 @@ const products = async (req, res) => {
 
   if (req.method === "GET") {
     if (category.includes(productId)) {
-      const products = await productsCollection
-        .find({
-          category: productId,
-        })
-        .toArray();
-      res.send(products);
+      try {
+        const products = await productsCollection
+          .find({
+            category: productId,
+          })
+          .toArray();
+
+        if (!products) {
+          res.send("Products not found");
+        }
+
+        res.send(products);
+      } catch (error) {
+        console.error("Error get products data", error);
+      }
     } else {
-      const product = await productsCollection.findOne({
-        _id: new ObjectId(productId),
-      });
-      res.send(product);
+      try {
+        const product = await productsCollection.findOne({
+          _id: new ObjectId(productId),
+        });
+
+        if (!product) {
+          res.send("Products not found");
+        }
+
+        res.send(product);
+      } catch (error) {
+        console.error("Error get products data", error);
+      }
     }
   }
 };

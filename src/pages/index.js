@@ -55,24 +55,39 @@ HomePage.getLayout = function getLayout(page) {
 export default HomePage;
 
 export const getStaticProps = async () => {
-  const productsResponse = await fetch(`${process.env.BASE_URL}/products`);
-  const productsData = await productsResponse.json();
+  try {
+    const productsResponse = await fetch(`${process.env.BASE_URL}/products`);
 
-  const filteredData = productsData
-    .filter((product) => product?.status === "In Stock")
-    .sort(() => {
-      return 0.5 - Math.random();
-    })
-    .slice(0, 8);
+    const categoriesResponse = await fetch(
+      `${process.env.BASE_URL}/categories`
+    );
 
-  const categoriesResponse = await fetch(`${process.env.BASE_URL}/categories`);
-  const categoriesData = await categoriesResponse.json();
+    if (!productsResponse.ok || !categoriesResponse.ok) {
+      throw new Error("Fetch failed");
+    }
 
-  return {
-    props: {
-      products: filteredData,
-      categories: categoriesData,
-    },
-    revalidate: 30,
-  };
+    const productsData = await productsResponse.json();
+
+    const filteredData = productsData
+      .filter((product) => product?.status === "In Stock")
+      .sort(() => {
+        return 0.5 - Math.random();
+      })
+      .slice(0, 8);
+
+    const categoriesData = await categoriesResponse.json();
+
+    return {
+      props: {
+        products: filteredData,
+        categories: categoriesData,
+      },
+      revalidate: 30,
+    };
+  } catch (error) {
+    console.error("Error fetching data:", error);
+    return {
+      notFound: true,
+    };
+  }
 };

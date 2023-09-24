@@ -112,7 +112,9 @@ const ProductDetailsPage = ({ product }) => {
           <TabsHeader>
             {data.map(({ label, value }) => (
               <Tab key={value} value={value} className="lg:w-40">
-                <div className="flex items-center gap-2 lg:text-xl">{label}</div>
+                <div className="flex items-center gap-2 lg:text-xl">
+                  {label}
+                </div>
               </Tab>
             ))}
           </TabsHeader>
@@ -132,25 +134,45 @@ const ProductDetailsPage = ({ product }) => {
 export default ProductDetailsPage;
 
 export const getStaticPaths = async () => {
-  const res = await fetch(`${process.env.BASE_URL}/products`);
-  const data = await res.json();
+  try {
+    const res = await fetch(`${process.env.BASE_URL}/products`);
+    const data = await res.json();
 
-  const paths = data.map((product) => ({
-    params: { productId: product._id },
-  }));
+    const paths = data.map((product) => ({
+      params: { productId: product._id },
+    }));
 
-  return { paths, fallback: false };
+    return { paths, fallback: false };
+  } catch (error) {
+    console.error("Error fetching data:", error);
+    return {
+      paths: [],
+      fallback: false,
+    };
+  }
 };
 
 export const getStaticProps = async ({ params }) => {
-  const res = await fetch(
-    `${process.env.BASE_URL}/products/${params.productId}`
-  );
-  const data = await res.json();
+  try {
+    const res = await fetch(
+      `${process.env.BASE_URL}/products/${params.productId}`
+    );
 
-  return {
-    props: {
-      product: data,
-    },
-  };
+    if (!res.ok) {
+      throw new Error(`Fetch failed with status ${res.status}`);
+    }
+
+    const data = await res.json();
+
+    return {
+      props: {
+        product: data,
+      },
+    };
+  } catch (error) {
+    console.error("Error fetching data:", error);
+    return {
+      notFound: true,
+    };
+  }
 };
