@@ -1,12 +1,15 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import PcBuilderHelper from "@/utils/pcBuilderHelper";
+
+import { PcBuilderContext } from "@/context/PcBuilderProvider";
+import { Button, Tooltip } from "@material-tailwind/react";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 
 const PcBuilderPage = ({ categories }) => {
-  const { pcBuilderData, setPcBuilderData } = PcBuilderHelper();
+  const { pcBuilderData, setPcBuilderData } = useContext(PcBuilderContext);
   const [totalPrice, setTotalPrice] = useState(0);
+
   const router = useRouter();
 
   const calculateTotalPrice = () => {
@@ -27,25 +30,35 @@ const PcBuilderPage = ({ categories }) => {
     <div className="flex justify-center align-middle items-center min-h-[80vh] px-8 py-12 max-w-screen-2xl mx-auto">
       <div className="w-full p-4 bg-white border border-gray-200 rounded-lg shadow md:p-8 dark:bg-gray-800 dark:border-gray-700">
         <div className="flex items-center justify-between mb-4">
-          <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">
+          <h5 className="text-2xl font-bold leading-none text-gray-900 dark:text-white">
             Build Your Computer!
           </h5>
+          {Object.keys(pcBuilderData).length > 0 && (
+            <div className="text-center w-96 bg-blue-400 text-white rounded-md py-2 ">
+              <p className="text-xl font-semibold">
+                {Object.keys(pcBuilderData).length} ITEMS SELECTED
+              </p>
+              <p> PRICES: ${totalPrice}</p>
+            </div>
+          )}
           <div>
-            {Object.keys(pcBuilderData).length > 0 && (
-              <div className="sm:inline-flex mb-2 sm:mb-0 text-sm font-medium bg-blue-100 text-blue-600 dark:bg-gray-600 dark:text-gray-300 rounded-lg text-center px-4 py-2">
-                {Object.keys(pcBuilderData).length} Items ${totalPrice}
-              </div>
+            {Object.keys(pcBuilderData).length < 6 ? (
+              <Button type="button" variant="gradient" size="md" color="red">
+                Select Minimum 6 Products!
+              </Button>
+            ) : (
+              <Button
+                onClick={() => {
+                  router.push("/");
+                }}
+                type="button"
+                variant="gradient"
+                size="md"
+                color="blue"
+              >
+                Complete Build
+              </Button>
             )}
-            <button
-              onClick={() => {
-                router.push("/");
-              }}
-              disabled={Object.keys(pcBuilderData).length < 6}
-              type="button"
-              className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-4 py-2 ml-4 text-center disabled:cursor-not-allowed"
-            >
-              Complete Build
-            </button>
           </div>
         </div>
         <div className="flow-root">
@@ -152,10 +165,9 @@ export const getServerSideProps = async () => {
   const res = await fetch(`${process.env.BASE_URL}/categories`);
   const data = await res.json();
 
-  const filteredData = data.slice(0, 7);
   return {
     props: {
-      categories: filteredData,
+      categories: data,
     },
   };
 };

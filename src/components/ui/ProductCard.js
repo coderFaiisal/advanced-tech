@@ -1,13 +1,14 @@
-import PcBuilderHelper from "@/utils/pcBuilderHelper";
+import { PcBuilderContext } from "@/context/PcBuilderProvider";
 import { Card } from "@material-tailwind/react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { useContext } from "react";
 import Rating from "react-rating";
 
 const ProductCard = ({ product }) => {
-  const { pcBuilderData, setPcBuilderData } = PcBuilderHelper();
-  console.log(pcBuilderData)
+  const { pcBuilderData, setPcBuilderData } = useContext(PcBuilderContext);
+
   const router = useRouter();
   return (
     <div className="mx-auto">
