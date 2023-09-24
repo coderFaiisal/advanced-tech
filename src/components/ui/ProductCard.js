@@ -1,5 +1,5 @@
 import { PcBuilderContext } from "@/context/PcBuilderProvider";
-import { Card } from "@material-tailwind/react";
+import { Button, Card } from "@material-tailwind/react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -85,7 +85,7 @@ const ProductCard = ({ product }) => {
             </div>
           </Link>
           {router?.query?.referer && (
-            <button
+            <Button
               onClick={() => {
                 setPcBuilderData({
                   ...pcBuilderData,
@@ -94,10 +94,13 @@ const ProductCard = ({ product }) => {
                 router.push("/pcBuilder", "/pcBuilder", { scroll: false });
               }}
               type="button"
-              className="w-full py-2.5 px-5 mb- text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+              variant="gradient"
+              size="sm"
+              color="blue"
+              className="w-full"
             >
               Add To Builder
-            </button>
+            </Button>
           )}
         </div>
       </Card>

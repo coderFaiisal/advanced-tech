@@ -223,20 +223,14 @@ function ProfileMenu() {
         <Button
           variant="text"
           color="blue-gray"
-          className="flex items-center gap-1 rounded-full py-0.5 pr-2 pl-0.5 lg:ml-auto"
+          className="rounded-full p-0 m-0 hover:opacity-50"
         >
           <Avatar
             variant="circular"
             size="sm"
-            alt="tania andrew"
+            alt="logged in user"
             className="border border-gray-900 p-0.5"
             src={session?.user?.image}
-          />
-          <IoChevronDownSharp
-            strokeWidth={2.5}
-            className={`h-3 w-3 hidden lg:block transition-transform ${
-              isMenuOpen ? "rotate-180" : ""
-            }`}
           />
         </Button>
       </MenuHandler>
