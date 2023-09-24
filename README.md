@@ -4,7 +4,9 @@
 
 ##
 
-This is the documentation for the Advanced Tech tool component of the Advanced Tech Bangladesh. This Advanced Tech tool helps users to select PC components and build their own PC. It is made using Next.js, Next Auth, Next API, Tailwind with Material Tailwind Components library and Mongodb.
+This is the documentation for the Advanced Tech.
+
+- You can select PC components and build their own PC.
 
 ### User
 
@@ -17,6 +19,14 @@ This is the documentation for the Advanced Tech tool component of the Advanced T
 - There is a protected route/page called PC Builder page, User must log in to visit this page.
 
 - In pc builder page users can build their own pc by selecting pc components.
+
+### Technologies used:
+
+- Next.js
+- Next Auth
+- Next API
+- Tailwind with Material Tailwind Components Library
+- Mongodb
 
 <!-- HOW TO RUN -->
 
