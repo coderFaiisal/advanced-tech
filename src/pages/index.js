@@ -19,7 +19,7 @@ const HomePage = ({ products, categories }) => {
       <main>
         <Banner />
         <div className="py-10">
-          <div className="text-center">
+          <div className="text-center mb-2 lg:mb-6">
             <p className="text-4xl font-bold mb-2">Featured Products</p>
             <p>Check & Get Your Desire Product!</p>
           </div>
@@ -31,7 +31,7 @@ const HomePage = ({ products, categories }) => {
         </div>
 
         <div className="py-10">
-          <div className="text-center">
+          <div className="text-center mb-2 lg:mb-6">
             <p className="text-4xl font-bold mb-2">Featured Category</p>
             <p>Get Your Desire Product from Featured Category!</p>
           </div>

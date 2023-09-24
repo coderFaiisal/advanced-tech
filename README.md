@@ -36,23 +36,22 @@ Please follow the below instructions to run this repository on your local machin
 
 1. Clone this entire repository
 
-   ```sh
-   git clone git-repository-url
-   ```
+```sh
+git clone git-repository-url
+
+```
 
 2. Go to the cloned project directory
 
-   ```sh
-   cd advanced-tech
+```sh
+cd advanced-tech
 
-   ```
+```
 
 3. Make environment file with the following system
 
-   ```sh
-   # For client make .env file accordingly :
-
-   ```
+```sh
+# For client make .env file accordingly.
 
 DB_URL=""
 BASE_URL=https://advanced-tech-virid.vercel.app
@@ -68,13 +67,13 @@ GOOGLE_ID=""
 
 GOOGLE_SECRET=""
 
-````
+```
 
 4. Install dependencies
 
 ```sh
 npm i
-````
+```
 
 5. Run client (Default Port is 3000)
 
@@ -88,5 +87,3 @@ npm i
    # production mode
    npm run start
    ```
-
-<br>
