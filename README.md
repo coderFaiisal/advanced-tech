@@ -75,15 +75,13 @@ GOOGLE_SECRET=""
 npm i
 ```
 
-5. Run client (Default Port is 3000)
+5. Run client: Default Port is 3000
 
-   ```sh
-   # development mode
-   npm run dev
-
-   # build mode
-   npm run build
-
-   # production mode
-   npm run start
-   ```
+```sh
+# development mode
+npm run dev
+# build mode
+npm run build
+# production mode
+npm run start
+```
