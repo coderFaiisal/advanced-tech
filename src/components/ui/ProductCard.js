@@ -1,3 +1,4 @@
+import PcBuilderHelper from "@/utils/pcBuilderHelper";
 import { Card } from "@material-tailwind/react";
 import Image from "next/image";
 import Link from "next/link";
@@ -5,6 +6,8 @@ import { useRouter } from "next/router";
 import Rating from "react-rating";
 
 const ProductCard = ({ product }) => {
+  const { pcBuilderData, setPcBuilderData } = PcBuilderHelper();
+  console.log(pcBuilderData)
   const router = useRouter();
   return (
     <div className="mx-auto">
@@ -44,9 +47,7 @@ const ProductCard = ({ product }) => {
               {product?.name}
             </h5>
 
-            {/* Rating and price */}
             <div className="flex flex-wrap justify-between items-center">
-              {/* Rating */}
               <div className="flex items-center space-x-2 mr-2">
                 <Rating
                   className="leading-none space-x-1"
@@ -69,13 +70,12 @@ const ProductCard = ({ product }) => {
                     </svg>
                   }
                 />
-                {/* Rate */}
+
                 <div className="inline-flex text-sm font-medium text-amber-600">
                   {product?.averageRating}
                 </div>
               </div>
 
-              {/* Price */}
               <div>
                 <div className="inline-flex text-sm font-medium bg-black text-white rounded-lg text-center px-2 py-0.5">
                   ${product?.price}
@@ -85,8 +85,15 @@ const ProductCard = ({ product }) => {
           </Link>
           {router?.query?.referer && (
             <button
+              onClick={() => {
+                setPcBuilderData({
+                  ...pcBuilderData,
+                  [product.category]: product,
+                });
+                router.push("/pcBuilder", "/pcBuilder", { scroll: false });
+              }}
               type="button"
-              className="w-full py-2.5 px-5 mb- text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 "
+              className="w-full py-2.5 px-5 mb- text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
             >
               Add To Builder
             </button>
@@ -98,5 +105,3 @@ const ProductCard = ({ product }) => {
 };
 
 export default ProductCard;
-
-
