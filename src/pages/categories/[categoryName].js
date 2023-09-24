@@ -6,7 +6,7 @@ const CategoryDetailsPage = ({ products }) => {
 
   return (
     <div className="py-10">
-      <div className="text-center dark:text-white pb-8">
+      <div className="text-center">
         <p className="text-4xl font-bold mb-2">{query?.categoryName}</p>
         <p>Check & Get Your Desire Product!</p>
       </div>

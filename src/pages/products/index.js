@@ -3,7 +3,7 @@ import ProductCard from "@/components/ui/ProductCard";
 const ProductsPage = ({ products }) => {
   return (
     <div className="py-10">
-      <div className="text-center dark:text-white pb-8">
+      <div className="text-center">
         <p className="text-4xl font-bold mb-2">Featured Products</p>
         <p>Check & Get Your Desire Product!</p>
       </div>

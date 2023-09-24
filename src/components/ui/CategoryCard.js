@@ -16,7 +16,7 @@ const CategoryCard = ({ category }) => {
             height="75"
           />
 
-          <h5 className="mt-3 text-center text-xl font-bold text-gray-900 dark:text-gray-400 line-clamp-1">
+          <h5 className="mt-3 text-center text-xl font-bold text-gray-900 line-clamp-1">
             {category?.name}
           </h5>
         </div>
