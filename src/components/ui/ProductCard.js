@@ -1,3 +1,4 @@
+import { Card } from "@material-tailwind/react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -7,7 +8,7 @@ const ProductCard = ({ product }) => {
   const router = useRouter();
   return (
     <div className="mx-auto">
-      <div className="max-w-sm bg-white border border-blue-200 rounded-lg  shadow-md shadow-blue-200 hover:shadow-blue-200  hover:shadow-2xl transition-all overflow-hidden cursor-pointer">
+      <Card className="w-full max-w-[26rem] shadow-md  shadow-gray-500 hover:shadow-gray-500  hover:shadow-lg transition-all overflow-hidden cursor-pointer">
         <div
           onClick={() => router.push(`/products/${product?._id}`)}
           className="relative"
@@ -91,9 +92,11 @@ const ProductCard = ({ product }) => {
             </button>
           )}
         </div>
-      </div>
+      </Card>
     </div>
   );
 };
 
 export default ProductCard;
+
+
