@@ -1,6 +1,6 @@
 ### Welcome to the Advanced Tech
 
-# Here you can see the live website [Live Site] (https://advanced-tech-virid.vercel.app/).
+### Here you can see the live website: https://advanced-tech-virid.vercel.app/
 
 ##
 

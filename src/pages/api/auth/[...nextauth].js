@@ -15,7 +15,7 @@ export const authOptions = {
     }),
   ],
   pages: {
-    signIn: "/signIn",
+    signIn: "https://advanced-tech-virid.vercel.app/signIn",
   },
 };
 
