@@ -23,7 +23,17 @@ export default CategoryDetailsPage;
 
 export async function getStaticPaths() {
   try {
-    const res = await fetch(`${process.env.BASE_URL}/categories`);
+
+    // if (typeof window === "undefined") {
+    //   return {
+    //     props: {
+    //       products: [],
+    //       categories: [],
+    //     },
+    //   };
+    // }
+
+    const res = await fetch(`${process.env.BASE_URL}/api/categories`);
     const categories = await res.json();
 
     const paths = categories.map((category) => ({
@@ -44,8 +54,16 @@ export const getStaticProps = async (context) => {
   const { params } = context;
 
   try {
+    // if (typeof window === "undefined") {
+    //   return {
+    //     props: {
+    //       products: [],
+    //     },
+    //   };
+    // }
+
     const res = await fetch(
-      `${process.env.BASE_URL}/products/${params.categoryName}`
+      `${process.env.BASE_URL}/api/products/${params.categoryName}`
     );
 
     if (!res.ok) {

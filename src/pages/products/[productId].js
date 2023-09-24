@@ -135,7 +135,7 @@ export default ProductDetailsPage;
 
 export const getStaticPaths = async () => {
   try {
-    const res = await fetch(`${process.env.BASE_URL}/products`);
+    const res = await fetch(`${process.env.BASE_URL}/api/products`);
     const data = await res.json();
 
     const paths = data.map((product) => ({
@@ -155,7 +155,7 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async ({ params }) => {
   try {
     const res = await fetch(
-      `${process.env.BASE_URL}/products/${params.productId}`
+      `${process.env.BASE_URL}/api/products/${params.productId}`
     );
 
     if (!res.ok) {

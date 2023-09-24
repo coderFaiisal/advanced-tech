@@ -56,10 +56,21 @@ export default HomePage;
 
 export const getStaticProps = async () => {
   try {
-    const productsResponse = await fetch(`${process.env.BASE_URL}/products`);
+    // if (typeof window === "undefined") {
+    //   return {
+    //     props: {
+    //       products: [],
+    //       categories: [],
+    //     },
+    //   };
+    // }
+
+    const productsResponse = await fetch(
+      `${process.env.BASE_URL}/api/products`
+    );
 
     const categoriesResponse = await fetch(
-      `${process.env.BASE_URL}/categories`
+      `${process.env.BASE_URL}/api/categories`
     );
 
     if (!productsResponse.ok || !categoriesResponse.ok) {

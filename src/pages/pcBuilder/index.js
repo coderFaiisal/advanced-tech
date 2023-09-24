@@ -168,7 +168,7 @@ export default PcBuilderPage;
 
 export const getServerSideProps = async () => {
   try {
-    const res = await fetch(`${process.env.BASE_URL}/categories`);
+    const res = await fetch(`${process.env.BASE_URL}/api/categories`);
 
     if (!res.ok) {
       throw new Error("Fetch failed");
