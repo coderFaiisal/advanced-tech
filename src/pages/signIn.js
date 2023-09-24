@@ -21,7 +21,11 @@ const SignIn = () => {
 
           <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
             <Button
-              onClick={() => signIn("google")}
+              onClick={() =>
+                signIn("google", {
+                  callbackUrl: "http://localhost:3000/pcBuilder",
+                })
+              }
               color="blue"
               className="flex w-full justify-center items-center my-2 "
             >
@@ -30,7 +34,11 @@ const SignIn = () => {
             </Button>
 
             <Button
-              onClick={() => signIn("github")}
+              onClick={() =>
+                signIn("github", {
+                  callbackUrl: "http://localhost:3000/pcBuilder",
+                })
+              }
               color="black"
               className="flex w-full justify-center items-center"
             >
