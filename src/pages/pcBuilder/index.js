@@ -5,6 +5,7 @@ import { Button, Tooltip } from "@material-tailwind/react";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useContext, useEffect, useState } from "react";
+import toast from "react-hot-toast";
 
 const PcBuilderPage = ({ categories }) => {
   const { pcBuilderData, setPcBuilderData } = useContext(PcBuilderContext);
@@ -50,6 +51,10 @@ const PcBuilderPage = ({ categories }) => {
               <Button
                 onClick={() => {
                   router.push("/");
+                  toast.success("PC Building Successful", {
+                    duration: 5000,
+                  });
+                  setPcBuilderData({});
                 }}
                 type="button"
                 variant="gradient"
@@ -96,7 +101,7 @@ const PcBuilderPage = ({ categories }) => {
                     type="button"
                     className="py-2.5 px-5 mr-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
                   >
-                    Select
+                    Choose
                   </button>
                 </div>
                 {pcBuilderData[category?.name] && (
